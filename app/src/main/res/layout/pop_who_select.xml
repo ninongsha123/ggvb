@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lkl"
+        android:layout_width="@dimen/dp_343"
+        android:layout_height="@dimen/dp_165"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:background="@drawable/date_select"
+        >
+        <RelativeLayout
+            android:id="@+id/quan"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            >
+
+            <TextView
+                android:id="@+id/tv_quan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部用户可见"
+                android:textColor="#ff333333"
+                android:textSize="@dimen/sp_17"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/friend"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            >
+
+            <TextView
+                android:id="@+id/tv_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="好友(互相关注)可见"
+                android:textColor="#ff333333"
+                android:textSize="@dimen/sp_17"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/just"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            >
+
+            <TextView
+                android:id="@+id/tv_just"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="仅自己可见"
+                android:textColor="#ff333333"
+                android:textSize="@dimen/sp_17"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/guan"
+        android:layout_width="@dimen/dp_343"
+        android:layout_height="@dimen/dp_55"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/lkl"
+        android:background="@drawable/date_select"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:textColor="#00DEFF"
+            android:textSize="@dimen/sp_17"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

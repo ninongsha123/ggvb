@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.activitypage.homepageactivitys.BringActivity">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="@dimen/dp_64">
+        <net.lucode.hackware.magicindicator.MagicIndicator
+            android:id="@+id/magic_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="@dimen/dp_70"
+            android:paddingRight="@dimen/dp_70"
+            android:background="@color/colorWhite" />
+        <ImageView
+            android:id="@+id/iv_finis"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back"/>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="match_parent"/>
+</LinearLayout>

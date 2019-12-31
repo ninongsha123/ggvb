@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_main_pager"
+        android:enabled="true"
+        android:icon="@mipmap/icon_home_pager_not_selected"
+        android:title="@string/home_page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_knowledge_hierarchy"
+        android:enabled="true"
+        android:icon="@mipmap/colleget_not"
+        android:title="@string/college"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_wx_article"
+        android:enabled="true"
+        android:icon="@mipmap/parentingencyclopedia_not"
+        android:title="@string/parenting_encyclopedia"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_navigation"
+        android:enabled="true"
+        android:icon="@mipmap/shoppingmall_not"
+        android:title="@string/shopping_mall"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab_project"
+        android:enabled="true"
+        android:icon="@mipmap/my_not"
+        android:title="@string/my"
+        app:showAsAction="ifRoom" />
+</menu>

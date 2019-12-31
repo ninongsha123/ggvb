@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tiancaijiazu.app">
+
+    <permission
+        android:name="com.tiancaijiazu.app.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- mirror -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="com.tiancaijiazu.app.permission.JPUSH_MESSAGE" /> <!-- 从SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" /> <!-- 相机权限 -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" /> <!-- 8.0版本手机兼容 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 读写文件 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.CAPTURE_AUDIO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.CAPTURE_VIDEO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission. READ_PRIVILEGED_PHONE_STATE" />
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/geniusfamily"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/geniusfamily"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activitys.issue.GroupDeitlsActivity"></activity>
+        <activity android:name=".activitys.issue.OtherGroupActivity" />
+        <activity android:name=".activitys.evalua.TestCeActivity" />
+        <activity android:name=".activitys.issue.GroupActivity" />
+        <activity android:name=".activitys.income.TixianjiluActivity" />
+        <activity android:name=".activitys.income.TiDeitlActivity" />
+        <activity android:name=".activitys.income.TiRecordActivity" />
+        <activity android:name=".activitys.income.TiInComeActivity" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.actions" -->
+        <!-- android:resource="@xml/fragment_my_grade" /> -->
+        <activity android:name=".activitys.activitypage.ParentingEncyclopediaactivitys.ReportPageActivity" />
+        <activity android:name=".activitys.activitypage.loginpages.PrivacyPolicyActivity" />
+        <activity android:name=".activitys.activitypage.BenefitsThatActivity" />
+        <activity android:name=".activitys.activitypage.loginpages.GetCodeActivity" />
+        <activity
+            android:name=".rongim.imactivity.RongWebActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+
+            <!--
+            <intent-filter>
+                <action android:name="io.rong.imkit.intent.action.webview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".activitys.activitypage.myactivity.GeneralizeCodeActivity" />
+        <activity android:name=".activitys.activitypage.InviteActivity" />
+        <activity android:name=".activitys.activitypage.PopularizeClassActivity" />
+        <activity android:name=".activitys.first_into.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.first_into.WelcomeGuideActivity"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" />
+        <activity android:name=".activitys.activitypage.loginpages.UserAgreementActivity" />
+        <activity
+            android:name=".activitys.activitypage.TryListenerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.activitypage.GuidanceActivity" />
+        <activity android:name=".activitys.activitypage.myactivity.AboutUsActivity" />
+        <activity android:name=".activitys.income.DetailActivity" />
+        <activity android:name=".activitys.shopping_activity.LookPhotoActivity" />
+        <activity android:name=".activitys.shopping_activity.CommentListActivity" />
+        <activity android:name=".activitys.evalua.GuidePageActivity" />
+        <activity android:name=".activitys.shopping_activity.EvaluateActivity" />
+        <activity
+            android:name=".activitys.test.TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activitys.MainActivity" />
+        <activity
+            android:name="cn.jpush.android.service.JNotifyActivity"
+            android:exported="true"
+            android:taskAffinity="jpush.custom"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+
+                <category android:name="com.tiancaijiazu.app" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jpush.TestActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="jpush.testAction" />
+
+                <category android:name="jpush.testCategory" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.tiancaijiazu.app" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.activitypage.LordActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- since 3.3.0 Required SDK核心功能 -->
+        <activity android:name=".activitys.activitypage.ShortVideoActivity" /> <!-- Required SDK核心功能 -->
+        <activity android:name=".activitys.activitypage.homepageactivitys.BringActivity" />
+        <activity android:name=".activitys.activitypage.OnlineActivity" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+        <activity android:name=".activitys.activitypage.homepageactivitys.OfflineActivity" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+        <activity android:name=".activitys.activitypage.FamilyActivity" /> <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <activity android:name=".activitys.activitypage.homepageactivitys.SubheadOneActivity" /> <!-- For test only 测试状态通知栏，需要打开的Activity -->
+        <activity android:name=".activitys.activitypage.homepageactivitys.SubheadTwoActivity" /> <!-- Required SDK核心功能 -->
+        <activity android:name=".activitys.activitypage.homepageactivitys.ZaoAnActivity" />
+        <activity android:name=".activitys.activitypage.homepageactivitys.WanAnActivity" />
+        <activity android:name=".activitys.activitypage.SubheadThreeActivity" /> <!-- SDK 核心功能 -->
+        <activity android:name=".activitys.activitypage.SubheadFourActivity" />
+        <activity android:name=".activitys.activitypage.collegeactivitys.VideoListActivity" />
+        <activity
+            android:name=".activitys.activitypage.ParentingEncyclopediaactivitys.RecDataActivity"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".activitys.activitypage.LogInActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activitys.activitypage.RegisterActivity" />
+        <activity android:name=".activitys.activitypage.RetrieveActivity" />
+        <activity android:name=".activitys.shopping_activity.OwnBrandActivity" />
+        <activity
+            android:name=".activitys.shopping_activity.ShopActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.shopping_activity.ShoppingCarActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activitys.shopping_activity.POActivity" />
+        <activity android:name=".activitys.shopping_activity.LocationActivity" />
+        <activity android:name=".activitys.shopping_activity.DiZhiActivity" />
+        <activity android:name=".activitys.shopping_activity.PayActivity" />
+        <activity android:name=".activitys.shopping_activity.LineItemActivity" />
+        <activity android:name=".activitys.shopping_activity.OrderListActivity" />
+        <activity android:name=".activitys.issue.MOPPActivity" />
+        <activity android:name=".activitys.issue.MOPP1Activity" />
+        <activity
+            android:name=".activitys.issue.widget.ImageGridActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerTheme" />
+        <activity android:name=".activitys.issue.widget.ImageBaseActivity" />
+        <activity
+            android:name=".activitys.issue.widget.ImagePreviewDelActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerThemeFullScreen" />
+        <activity android:name=".activitys.issue.widget.ImagePreviewActivity" />
+        <activity
+            android:name=".activitys.issue.widget.ImageCropActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:theme="@style/ImagePickerTheme" />
+        <activity android:name=".activitys.activitypage.ParentingEncyclopediaactivitys.LikeListActivity" />
+        <activity android:name=".activitys.activitypage.ParentingEncyclopediaactivitys.UserCenterActivity" />
+        <activity android:name=".activitys.qi_activitys.BaoActivity" />
+        <activity
+            android:name=".activitys.activitypage.loginpages.FirstActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".activitys.activitypage.loginpages.LoginPhoneActivity" />
+        <activity android:name=".activitys.activitypage.loginpages.CountryActivity" />
+        <activity android:name=".activitys.bringfragments.souactivitys.SouActivity" />
+        <activity android:name=".activitys.issue.PhotoChaActivity" />
+        <activity android:name=".activitys.topic.TopicCentrectivity" />
+        <activity android:name=".activitys.user_fragment.activitys.AttentionOfItActivity" />
+        <activity android:name=".activitys.user_fragment.activitys.FansItActivity" />
+        <activity android:name=".activitys.user_fragment.Demo4Activity" />
+        <activity android:name=".fragments.outermostlayer.college_child.Vip_classList" />
+        <activity
+            android:name=".activitys.activitypage.collegeactivitys.ClassListActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activitys.video.VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+        <activity android:name=".activitys.activitypage.collegeactivitys.DarftActivity" />
+        <activity android:name=".activitys.consisting.ConsistingActivity" />
+        <activity android:name=".activitys.parenting.ParentingGuideActivity" />
+        <activity android:name=".activitys.parenting.CanOrNotDetailsActivity" />
+        <activity android:name=".activitys.health_feeding.HealthFeedingActivity" />
+        <activity android:name=".activitys.health_feeding.HealthInformationActivity" />
+        <activity android:name=".activitys.activitypage.myactivity.BianjiziliaoActivity" />
+        <activity android:name=".activitys.activitypage.myactivity.GeqianActivity" />
+        <activity android:name=".activitys.activitypage.myactivity.NichengActivity" />
+        <activity android:name=".activitys.activitypage.myactivity.SettingActivity" />
+        <activity android:name=".activitys.activitypage.ChangePhoneActivity" />
+        <activity android:name=".activitys.activitypage.myactivity.AlreadyBoughtActivity" />
+        <activity android:name=".activitys.activitypage.homepageactivitys.KnowlegePlayActivity" />
+        <activity
+            android:name=".activitys.early.EarlyActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".activitys.early.ExclusiveCourseActivity" />
+        <activity android:name=".activitys.early.TheFormalCardActivity" />
+        <activity android:name=".activitys.activitypage.collegeactivitys.ClockActivity" />
+        <activity android:name=".activitys.diy.DiyActivity" />
+        <activity
+            android:name=".activitys.diy.RenewActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".activitys.early.ClockOnActivity" />
+        <activity
+            android:name=".activitys.take.TakeAClassActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.english.EnglishClassActivity" />
+        <activity android:name=".activitys.summary.SummaryActivity" />
+        <activity android:name=".activitys.activitypage.GameActivity" />
+        <activity android:name=".activitys.activitypage.homepageactivitys.Game_xiangActivity" />
+        <activity android:name=".activitys.past.PastCourseActivity" />
+        <activity android:name=".activitys.activitypage.homepageactivitys.OurgardenActivity" />
+        <activity android:name=".activitys.offline.OfflineBookingActivity" />
+        <activity android:name=".activitys.brand.BrandIntroductionActivity" />
+        <activity android:name=".activitys.qi_activitys.BaByAddActivity" />
+        <activity android:name=".activitys.activitypage.WebActivity" />
+        <activity android:name=".activitys.home_game_two.HomeGameActivity" />
+        <activity android:name=".activitys.shopping_activity.InfantActivity" />
+        <activity android:name=".activitys.shopping_activity.ToyActivity" />
+        <activity android:name=".activitys.evalua.EvaluationActivity" />
+        <activity android:name=".activitys.evalua.EvaluaBabyActivity" />
+        <activity android:name=".activitys.evalua.TestReportActivity" />
+        <activity android:name=".activitys.coupons.CouponsActivity" />
+        <activity android:name=".activitys.income.MonthIncomeActivity" />
+        <activity android:name=".activitys.collect.MyCollectActivity" />
+        <activity android:name=".activitys.income.AddBankCardsActivity" />
+        <activity android:name=".activitys.issue.MyReleasedActivity" />
+        <activity android:name=".activitys.feedback.FeedbackCenterActivity" />
+        <activity
+            android:name=".activitys.down.DownLoadListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitys.evalua.AssessmentRecordsActivity" />
+        <activity android:name=".activitys.activitypage.MyTeamActivity" />
+        <activity android:name=".activitys.offline.BookingInfoActivity" />
+        <activity android:name=".activitys.apply_for.ApplyForActivity" />
+        <!--
+<activity android:name="io.rong.imkit.tools.RongWebviewActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="io.rong.imkit.intent.action.webview" />
+            <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name=".rongim.imactivity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.tiancaijiazu.app"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.offline.SucceedActivity" />
+        <activity android:name=".activitys.activitypage.TanchuActivity" />
+        <activity
+            android:name=".activitys.early.RecordCommentActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".activitys.take.NoteTakingActivity" />
+
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="07c92c6b403d549685963b6a6f3ffbdd" />
+
+        <provider
+            android:name=".activitys.calendar.MaterialCalendarViewInitProvider"
+            android:authorities="${applicationId}.materialcalendarviewinitprovider"
+            android:enabled="true"
+            android:exported="false" />
+        <provider
+            android:name="cn.jpush.android.service.DownloadProvider"
+            android:authorities="com.tiancaijiazu.app.DownloadProvider"
+            android:exported="true" />
+        <provider
+            android:name="cn.jpush.android.service.DataProvider"
+            android:authorities="com.tiancaijiazu.app.DataProvider"
+            android:exported="false"
+            android:process=":pushcore" />
+        <!--
+<provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.tiancaijiazu.app"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.tiancaijiazu.app.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rc_file_path" />
+        </provider>
+        <provider
+            android:name=".activitys.issue.widget.ImagePickerProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+        <receiver
+            android:name=".rongim.receiver.RongReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.tiancaijiazu.app.rongim.receiver.RongReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.tiancaijiazu.app" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".jpush.MyJPushMessageReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+
+                <category android:name="com.tiancaijiazu.app" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".jpush.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" /> <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.tiancaijiazu.app" /> <!-- name为当前项目的包名 -->
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".music.NotificationReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="ACTION_PLAY_OR_PAUSE" />
+                <action android:name="ACTION_NEXT" />
+                <action android:name="ACTION_PRE" />
+                <action android:name="ACTION_FAVORITE" />
+                <action android:name="ACTION_LYRICS" />
+            </intent-filter>
+        </receiver> <!-- 会话列表 -->
+        <receiver
+            android:name=".utils.receiver.AlarmReceiver"
+            android:process=":remote" /> <!-- 会话界面 -->
+        <receiver
+            android:name=".rongim.receiver.SealNotificationReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MESSAGE_CLICKED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.amap.api.location.APSService" />
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.tiancaijiazu.app" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:exported="false"
+            android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".jpush.PushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action" />
+            </intent-filter>
+        </service>
+        <service android:name=".sevice.DataService" />
+    </application>
+
+</manifest>

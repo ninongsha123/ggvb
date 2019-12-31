@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.tiancaijiazu.app.activitys.user_fragment.activitys.FansItActivity">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/iv_finis"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back" />
+
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:text="Ta的粉丝"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_17" />
+
+    </RelativeLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_below="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loadjia"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+<com.tiancaijiazu.app.utils.status.LoadingLayout
+    app:isFirstVisible="true"
+    android:id="@+id/loadingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+</com.tiancaijiazu.app.utils.status.LoadingLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loader"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <ImageView
+        android:id="@+id/state"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_230"
+        android:layout_height="@dimen/dp_210"
+        android:src="@mipmap/no_fan"/>
+</RelativeLayout>

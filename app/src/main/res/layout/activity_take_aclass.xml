@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    app:isFirstVisible="true"
+    android:id="@+id/loadingLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                app:elevation="0dp"
+                app:layout_behavior="com.tiancaijiazu.app.activitys.user_fragment.utils.NoScrollBehavior">
+
+                <android.support.design.widget.CollapsingToolbarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+
+                    <RelativeLayout
+                        android:id="@+id/tv_headerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_64"
+                        >
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:gravity="center_vertical"
+                                android:layout_height="@dimen/dp_60">
+                                <TextView
+                                    android:id="@+id/tv_day"
+                                    android:text="DAY1"
+                                    android:textColor="#ffffffff"
+                                    android:textSize="16sp"
+                                    android:gravity="center"
+                                    android:background="@drawable/take_day_one"
+                                    android:layout_width="@dimen/dp_65"
+                                    android:layout_height="@dimen/dp_30" />
+                                <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                                    android:id="@+id/tv_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/sp_17"
+                                    android:textColor="@color/colorTextTitleHome"
+                                    android:layout_marginLeft="@dimen/dp_11"
+                                    android:text="初步认知：晴天还是雨天"/>
+                            </LinearLayout>
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <com.tiancaijiazu.app.utils.views.MyJZVideoPlayerStandard
+                                    android:id="@+id/jiaozi_player"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/dp_211"/>
+                                <RelativeLayout
+                                    android:id="@+id/rela"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    >
+                                    <ImageView
+                                        android:id="@+id/iv_play"
+                                        android:layout_width="@dimen/dp_30"
+                                        android:layout_height="@dimen/dp_30"
+                                        android:layout_centerInParent="true"
+                                        android:src="@mipmap/video_playing" />
+                                </RelativeLayout>
+                            </FrameLayout>
+                        </LinearLayout>
+
+                    </RelativeLayout>
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_64"
+                        app:contentInsetLeft="0dp"
+                        app:contentInsetStart="0dp"
+                        android:background="@color/colorWhite"
+                        app:layout_collapseMode="pin">
+
+                        <RelativeLayout
+                            android:id="@+id/ll"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_64"
+                            android:background="@color/colorWhite"
+                            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                            <ImageView
+                                android:id="@+id/iv_finis"
+                                android:layout_width="@dimen/dp_40"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="@dimen/dp_2"
+                                android:layout_marginLeft="@dimen/dp_5"
+                                android:src="@mipmap/rec_back"/>
+                            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                                android:id="@+id/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/sp_17"
+                                android:textColor="@color/colorTextTitleHome"
+                                android:text="学习课程"
+                                android:layout_marginBottom="@dimen/dp_11"
+                                android:layout_centerHorizontal="true"
+                                android:layout_alignParentBottom="true"
+                                />
+
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/share"
+                                android:layout_width="@dimen/dp_40"
+                                android:layout_height="@dimen/dp_40"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:src="@mipmap/share"/>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_0_5"
+                                android:layout_alignParentBottom="true"
+                                android:background="#F1F1F1"/>
+                        </RelativeLayout>
+                    </android.support.v7.widget.Toolbar>
+                </android.support.design.widget.CollapsingToolbarLayout>
+
+            </android.support.design.widget.AppBarLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_behavior="com.tiancaijiazu.app.activitys.user_fragment.utils.FixScrollingFooterBehavior">
+
+                <net.lucode.hackware.magicindicator.MagicIndicator
+                    android:id="@+id/magic_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_45"/>
+
+
+                <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                    android:id="@+id/refreshLayout"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="@dimen/dp_3"
+                    app:srlEnableRefresh="false"
+                    android:paddingRight="@dimen/dp_3"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rlv"
+                        android:overScrollMode="never"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <pl.droidsonroids.gif.GifImageView
+                            android:src="@drawable/loader"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40" />
+                    </LinearLayout>
+                </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+            </LinearLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/note_taking"
+        android:layout_width="@dimen/dp_165"
+        android:layout_height="@dimen/dp_50"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:src="@mipmap/record"/>
+
+</RelativeLayout>

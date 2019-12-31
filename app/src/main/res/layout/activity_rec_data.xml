@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tiancaijiazu.app.activitys.activitypage.ParentingEncyclopediaactivitys.RecDataActivity">
+    <RelativeLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="@dimen/dp_64">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle"
+            android:layout_width="@dimen/dp_33"
+            android:layout_height="@dimen/dp_33"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_6"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_toRightOf="@+id/back"
+            />
+
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_13"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_toRightOf="@+id/circle"
+            android:layout_toLeftOf="@+id/concern"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_15" />
+
+        <CheckBox
+            android:id="@+id/concern"
+            android:layout_width="@dimen/dp_64"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_11"
+            android:layout_toLeftOf="@+id/more_dian"
+            android:button="@null"
+            android:background="@drawable/select_user"/>
+        <ImageView
+            android:id="@+id/more_dian"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_5"
+            android:src="@mipmap/del_wen"/>
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_5"
+            android:src="@mipmap/share" />
+    </RelativeLayout>
+    <com.tiancaijiazu.app.utils.status.LoadingLayout
+        android:id="@+id/loadingLayout"
+        android:layout_above="@id/p"
+        android:layout_below="@id/tool"
+        app:isFirstVisible="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.tiancaijiazu.app.utils.CustomFragmeLayout
+                    android:id="@+id/nes"
+                    android:layout_width="match_parent"
+                    android:overScrollMode="never"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/lin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical">
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/vp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_360" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorWhite"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/recylerView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:nestedScrollingEnabled="false"
+                                android:overScrollMode="never"
+                                android:layout_gravity="center" />
+
+                            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                                android:id="@+id/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_17"
+                                android:layout_marginRight="@dimen/dp_28"
+                                android:textColor="@color/colorTextTitleHome"
+                                android:lineSpacingExtra="@dimen/dp_4"
+                                android:textSize="@dimen/sp_17" />
+
+                            <TextView
+                                android:id="@+id/article"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_17"
+                                android:layout_marginRight="@dimen/dp_19"
+                                android:layout_marginTop="@dimen/dp_19"
+                                android:lineSpacingExtra="@dimen/dp_4"
+                                android:textColor="@color/colorTextTitleHome"
+                                android:textSize="@dimen/sp_14" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dp_16"
+                                android:layout_marginLeft="@dimen/dp_16"
+                                android:layout_marginTop="@dimen/dp_19"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <com.tiancaijiazu.app.activitys.views.FlowGroupView
+                                    android:id="@+id/flow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_17"
+                                android:layout_marginRight="@dimen/dp_9">
+
+                                <TextView
+                                    android:id="@+id/time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="@color/colorTextSubhead"
+                                    android:textSize="@dimen/sp_11" />
+
+                                <ImageView
+                                    android:id="@+id/iv_enter"
+                                    android:layout_width="@dimen/dp_22"
+                                    android:layout_height="@dimen/dp_22"
+                                    android:layout_alignParentRight="true"
+                                    android:src="@mipmap/enter" />
+
+                                <TextView
+                                    android:id="@+id/tv_praise"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="@dimen/dp_1"
+                                    android:layout_toLeftOf="@+id/iv_enter"
+                                    android:textColor="@color/colorTextSubhead"
+                                    android:textSize="@dimen/sp_11" />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/cir_three"
+                                    android:layout_width="@dimen/dp_20"
+                                    android:layout_height="@dimen/dp_20"
+                                    android:layout_marginRight="@dimen/dp_10"
+                                    android:layout_toLeftOf="@+id/tv_praise"
+                                    />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/cir_two"
+                                    android:layout_width="@dimen/dp_20"
+                                    android:layout_height="@dimen/dp_20"
+                                    android:layout_marginRight="@dimen/dp_7"
+                                    android:layout_toLeftOf="@+id/cir_three"
+                                    />
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:id="@+id/cir_one"
+                                    android:layout_width="@dimen/dp_20"
+                                    android:layout_height="@dimen/dp_20"
+                                    android:layout_marginRight="@dimen/dp_7"
+                                    android:layout_toLeftOf="@+id/cir_two"
+                                    />
+                            </RelativeLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_0_5"
+                                android:layout_marginLeft="@dimen/dp_16"
+                                android:layout_marginRight="@dimen/dp_16"
+                                android:layout_marginTop="@dimen/dp_15"
+                                android:background="@color/colorView" />
+
+                            <TextView
+                                android:id="@+id/like_sum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dp_16"
+                                android:layout_marginTop="@dimen/dp_9"
+                                android:textColor="@color/colorTextTitleHome"
+                                android:textSize="@dimen/sp_12" />
+
+                            <!-- <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginLeft="@dimen/dp_16"
+                                 android:layout_marginRight="@dimen/dp_16"
+                                 android:layout_marginTop="@dimen/dp_15"
+                                 android:gravity="center_vertical"
+                                 android:orientation="horizontal">
+
+                                 <de.hdodenhof.circleimageview.CircleImageView
+                                     android:id="@+id/user_iv"
+                                     android:layout_width="@dimen/dp_33"
+                                     android:layout_height="@dimen/dp_33"
+                                     android:src="@mipmap/head_portrait" />
+
+                                 <EditText
+                                     android:id="@+id/edit_com"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="@dimen/dp_30"
+                                     android:layout_marginLeft="@dimen/dp_5"
+                                     android:imeOptions="actionSend"
+                                     android:singleLine="true"
+                                     android:background="@drawable/bg_tab_comm"
+                                     android:drawableLeft="@mipmap/comm"
+                                     android:drawablePadding="@dimen/dp_5"
+                                     android:textSize="@dimen/sp_13"
+                                     android:paddingRight="@dimen/dp_3"
+                                     android:hint="说点什么..."
+                                     android:paddingLeft="@dimen/dp_10"
+                                     android:textColor="@color/colorTextTitleHome"
+                                     android:textColorHint="@color/colorTextSubhead"
+                                     android:textCursorDrawable="@drawable/edit_pl" />
+                             </LinearLayout>-->
+
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/rlv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_10" />
+                            <ImageView
+                                android:id="@+id/iv_discuss"
+                                android:layout_width="@dimen/dp_160"
+                                android:layout_height="@dimen/dp_180"
+                                android:layout_marginTop="@dimen/dp_15"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="@dimen/dp_19"
+                                android:src="@mipmap/discuss_no"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dp_100" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </com.tiancaijiazu.app.utils.CustomFragmeLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </com.tiancaijiazu.app.utils.status.LoadingLayout>
+
+
+    <LinearLayout
+        android:id="@+id/p"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_gravity="bottom"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/dp_16">
+
+        <EditText
+            android:id="@+id/edit_comm"
+            android:layout_width="@dimen/dp_160"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_6"
+            android:layout_marginBottom="@dimen/dp_6"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_9"
+            android:background="@drawable/bg_tab_com"
+            android:drawableLeft="@mipmap/comm"
+            android:drawablePadding="@dimen/dp_5"
+            android:imeOptions="actionSend"
+            android:singleLine="true"
+            android:textSize="@dimen/sp_13"
+            android:paddingRight="@dimen/dp_3"
+            android:hint="说点什么..."
+            android:paddingLeft="@dimen/dp_10"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead"
+            android:textCursorDrawable="@drawable/edit_pl" />
+
+        <LinearLayout
+            android:id="@+id/xin_line"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_xin"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:button="@null"
+                android:background="@drawable/select_xin_buttom"
+                />
+
+            <TextView
+                android:id="@+id/xin_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shou_chang_line"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox_shou_chang"
+                android:button="@null"
+                android:background="@drawable/select_shou_chang"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                />
+
+            <TextView
+                android:id="@+id/collect_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/comm_line"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:src="@mipmap/comm_tb" />
+
+            <TextView
+                android:id="@+id/tv_comm_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_13" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

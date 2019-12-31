@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.shopping_activity.LocationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/iv_finis"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:text="添加/编辑收货地址"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_17" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_290"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:background="@color/colorWhite"
+            android:hint="收货人"
+            android:textCursorDrawable="@drawable/edit_gb"
+            android:gravity="top"
+            android:paddingTop="@dimen/dp_18"
+            android:textSize="@dimen/sp_14"
+            android:paddingLeft="@dimen/dp_16"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="@color/colorView" />
+
+
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:background="@color/colorWhite"
+            android:gravity="top"
+            android:hint="手机号码"
+            android:paddingLeft="@dimen/dp_16"
+            android:maxLength="11"
+            android:inputType="phone"
+            android:paddingTop="@dimen/dp_18"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead"
+            android:textCursorDrawable="@drawable/edit_gb"
+            android:textSize="@dimen/sp_14" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="@color/colorView" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_diqu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:background="@color/colorWhite"
+                android:focusableInTouchMode="false"
+                android:textSize="@dimen/sp_14"
+                android:hint="所在地区"
+                android:paddingLeft="@dimen/dp_16"
+                android:textColor="@color/colorTextTitleHome"
+                android:textColorHint="@color/colorTextSubhead" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_15"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_11"
+                android:src="@mipmap/enter_min" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="@color/colorView" />
+
+        <EditText
+            android:id="@+id/edit_xiangxi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_140"
+            android:background="@color/colorWhite"
+            android:gravity="top"
+            android:textCursorDrawable="@drawable/edit_gb"
+            android:textSize="@dimen/sp_14"
+            android:hint="详细地址：如街道、小区、楼牌号等"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingTop="@dimen/dp_18"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_37"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_20"
+        android:src="@mipmap/ok_bt" />
+</LinearLayout>

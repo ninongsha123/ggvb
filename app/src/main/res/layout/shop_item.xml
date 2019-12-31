@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/product_picture"
+        android:layout_width="@dimen/dp_105"
+        android:layout_height="@dimen/dp_90"
+        android:layout_marginRight="@dimen/dp_5"
+       android:scaleType="centerCrop"/>
+    <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+        android:id="@+id/product_name"
+        android:layout_width="@dimen/dp_90"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_13"
+        android:layout_marginTop="@dimen/dp_8"
+        android:textColor="@color/colorTextTitleHome"
+        android:enabled="true"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_19"
+        android:layout_marginTop="@dimen/dp_8">
+        <TextView
+            android:id="@+id/fuhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_2_5"
+            android:text="¥"
+            android:textColor="@color/shopping"
+            android:textSize="@dimen/sp_12" />
+
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/fuhao"
+            android:paddingTop="@dimen/dp_1"
+            android:text="79"
+            android:textColor="@color/shopping"
+            android:textSize="@dimen/sp_14" />
+
+
+            <TextView
+                android:id="@+id/yuan_jia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="¥ 98"
+                android:layout_marginTop="@dimen/dp_2_5"
+                android:layout_marginLeft="@dimen/dp_7"
+                android:layout_toRightOf="@+id/money"
+                android:textColor="@color/colorTextSubhead"
+                android:textSize="@dimen/sp_12" />
+
+    </RelativeLayout>
+</LinearLayout>

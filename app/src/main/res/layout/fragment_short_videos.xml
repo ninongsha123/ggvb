@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.shopping_activity.fragments.ShortVideosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:paddingRight="@dimen/dp_13"
+        android:paddingLeft="@dimen/dp_13"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loadjia"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loader"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

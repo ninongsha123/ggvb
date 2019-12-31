@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tiancaijiazu.app.utils.status.LoadingLayout app:isFirstVisible="true"
+    android:id="@+id/loadingLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_earlveducation"
+    tools:context="com.tiancaijiazu.app.activitys.qi_activitys.BaoActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rela"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_64"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:id="@+id/iv_finis"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:src="@mipmap/rec_back" />
+
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp_11"
+                android:text="完善宝宝卡"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_17" />
+
+
+        </RelativeLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:layout_marginTop="@dimen/dp_16"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/wanshan"
+                    android:textSize="@dimen/sp_12" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text"
+                    android:layout_marginBottom="@dimen/dp_5"
+                    android:layout_marginTop="@dimen/dp_12"
+                    android:nestedScrollingEnabled="false"
+                    android:overScrollMode="never" />
+
+                <LinearLayout
+                    android:id="@+id/rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_46"
+                    android:layout_below="@+id/recylerView"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:background="@mipmap/xu_xian"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/add_baby"
+                        android:layout_width="@dimen/dp_20"
+                        android:layout_height="@dimen/dp_20"
+                        android:src="@mipmap/add_baby" />
+
+                    <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_3"
+                        android:layout_toRightOf="@+id/add_baby"
+                        android:text="添加宝宝卡"
+                        android:textColor="@color/viphuiyuan"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/dp_58"
+                    android:layout_marginTop="@dimen/dp_18"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/colorTextSubhead"
+                    android:textSize="@dimen/sp_13" />
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <ImageView
+            android:id="@+id/wan_cheng"
+            android:layout_width="@dimen/dp_180"
+            android:layout_height="@dimen/dp_35"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:src="@mipmap/tiao_guo_ye" />
+    </LinearLayout>
+
+    <include layout="@layout/to_load_layout" />
+</RelativeLayout>
+
+</com.tiancaijiazu.app.utils.status.LoadingLayout>

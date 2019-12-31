@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    tools:context="com.tiancaijiazu.app.activitys.early.fragments.RecordFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@color/colorWhite"
+                android:layout_height="@dimen/dp_45">
+                <TextView
+                    android:id="@+id/tv_all"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_27"
+                    android:gravity="center"
+                    android:background="@drawable/bg_tab_ceshi_one"
+                    android:textColor="@color/colorWhite"
+                    android:text="全部"/>
+                <TextView
+                    android:id="@+id/tv_my"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_27"
+                    android:gravity="center"
+                    android:background="@drawable/bg_tab_ceshi_two"
+                    android:textColor="@color/colorZhu"
+                    android:text="我的"/>
+            </LinearLayout>
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/refreshLayout"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_11"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <pl.droidsonroids.gif.GifImageView
+                        android:src="@drawable/loadjia"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40" />
+                </LinearLayout>
+<com.tiancaijiazu.app.utils.status.LoadingLayout
+    android:layout_width="match_parent"
+    android:id="@+id/loadingLayout"
+    app:isFirstVisible="true"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerView"
+        android:overScrollMode="never"
+        android:nestedScrollingEnabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</com.tiancaijiazu.app.utils.status.LoadingLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+                    <pl.droidsonroids.gif.GifImageView
+                        android:src="@drawable/loader"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40" />
+                </LinearLayout>
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+        </LinearLayout>
+</RelativeLayout>

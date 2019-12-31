@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_marginLeft="@dimen/dp_100"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            android:src="@mipmap/sign_str_title"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="@dimen/dp_180"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="法国队通融通融挺好玩"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/colorTextTitleHome"
+            />
+    </LinearLayout>
+</LinearLayout>

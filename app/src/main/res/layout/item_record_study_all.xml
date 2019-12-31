@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rela1"
+            android:layout_width="@dimen/dp_226"
+            android:background="@mipmap/game_purpose"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_height="@dimen/dp_54">
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                android:id="@+id/text_study"
+                android:layout_width="@dimen/dp_190"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="游戏目"
+                android:textColor="#ffffffff"
+                android:textSize="@dimen/sp_20" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_26"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:layout_height="wrap_content">
+            <com.tiancaijiazu.app.utils.views.MyJZVideoPlayerStandard
+                android:id="@+id/jiaozi_player"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_193"/>
+            <RelativeLayout
+                android:id="@+id/rela"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:id="@+id/iv_play"
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/video_playing" />
+            </RelativeLayout>
+        </FrameLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView"
+            android:layout_width="match_parent"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyler"
+            android:layout_width="match_parent"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

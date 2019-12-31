@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cir_cle"
+                android:layout_width="@dimen/dp_33"
+                android:layout_height="@dimen/dp_33"
+                android:layout_marginLeft="@dimen/dp_16"
+                />
+
+            <LinearLayout
+                android:id="@+id/line"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/dp_2"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_marginRight="@dimen/dp_23"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp_12"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:textColor="@color/colorTextTitle"
+                        android:text="Lorem Ipsum"/>
+                    <TextView
+                        android:id="@+id/zhuo_ze"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/user_name"
+                        android:textSize="@dimen/sp_11"
+                        android:textColor="@color/colorZhu"
+                        android:layout_alignBaseline="@+id/user_name"
+                        android:text="作者"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:paddingRight="@dimen/dp_5"
+                        android:paddingLeft="@dimen/dp_5"
+                        android:background="@drawable/shape_corne_zhuoze"/>
+
+                    <LinearLayout
+                        android:id="@+id/zanj"
+                        android:orientation="vertical"
+                        android:layout_width="@dimen/dp_35"
+                        android:layout_marginRight="@dimen/dp_1"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/dp_4"
+                        android:gravity="center"
+                        android:layout_height="wrap_content">
+                        <CheckBox
+                            android:id="@+id/checkbox"
+                            android:layout_width="@dimen/dp_22"
+                            android:layout_height="@dimen/dp_22"
+                            android:button="@null"
+                            android:background="@drawable/select_xin"
+                            />
+                        <TextView
+                            android:id="@+id/like_sum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTextSubhead"
+                            android:textSize="@dimen/sp_11"
+                            android:text="12345"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_13"
+                    android:layout_marginLeft="@dimen/dp_6"
+                    android:lineSpacingExtra="@dimen/dp_5"
+                    android:layout_marginRight="@dimen/dp_23"
+                    android:layout_marginBottom="@dimen/dp_13"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:text="最近打算去香港旅游，但是苦于对那边不熟，网上攻略大多也就大同小异给点景点推荐，维港和迪士尼还有浅水湾是特别想去的，希望去过的大神可以给点建议，或者有没有靠谱的自由行导游推荐一下，谢谢大家了！"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <View
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@color/colorView"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_height="@dimen/dp_0_5"/>
+        <View
+            android:id="@+id/v_two"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_54"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_8"
+            android:visibility="gone"
+            android:background="@color/colorView"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

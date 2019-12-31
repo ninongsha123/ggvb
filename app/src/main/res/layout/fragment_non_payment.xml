@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_earlveducation"
+    tools:context="com.tiancaijiazu.app.activitys.shopping_activity.fragments.NonPaymentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/kong"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_220"
+        android:layout_height="@dimen/dp_250"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_80"
+        android:src="@mipmap/order_null" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loadjia"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loader"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</FrameLayout>

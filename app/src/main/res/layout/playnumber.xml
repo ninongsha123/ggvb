@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <www.linwg.org.lib.LCardView
+        android:layout_width="@dimen/dp_240"
+        android:layout_height="@dimen/dp_120"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cornerRadius="@dimen/dp_7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_69">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp_31"
+                    android:includeFontPadding="false"
+                    android:text="01082851170"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_17" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_1"
+                android:layout_below="@id/rl"
+                android:background="@color/colorView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_below="@id/rl"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/cancle"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="@color/colorTextSubhead"
+                    android:textSize="@dimen/sp_16" />
+                <View
+                    android:layout_width="@dimen/dp_1"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/colorView" />
+                <TextView
+                    android:id="@+id/play"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="呼叫"
+                    android:textColor="@color/colorZhu"
+                    android:textSize="@dimen/sp_16" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </www.linwg.org.lib.LCardView>
+</RelativeLayout>

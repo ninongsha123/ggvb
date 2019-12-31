@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.issue.OtherGroupActivity">
+
+    <RelativeLayout
+        android:id="@+id/rls"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="@dimen/dp_64">
+        <ImageView
+            android:id="@+id/iv_finid"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back"/>
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+            android:layout_width="wrap_content"
+            android:id="@+id/a"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_17"
+            android:textColor="@color/colorTextTitleHome"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:text="他宝宝的成长日记"/>
+    </RelativeLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_below="@id/rls"
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/dp_3"
+        android:paddingRight="@dimen/dp_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:src="@drawable/loadjia" />
+    </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_below="@+id/lines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rlv_img"
+                />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:src="@drawable/loader" />
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</RelativeLayout>

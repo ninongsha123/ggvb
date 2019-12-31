@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:gravity="center_vertical"
+        android:layout_height="@dimen/dp_50">
+        <TextView
+            android:id="@+id/alarm_clock_father_tv"
+            android:layout_width="@dimen/dp_0"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_16"
+            android:textColor="@color/colorTextTitleHome"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:id="@+id/group_state"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"
+             />
+    </LinearLayout>
+
+</LinearLayout>

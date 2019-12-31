@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.activitypage.homepageactivitys.ZaoAnActivity">
+
+    <ImageView
+        android:id="@+id/tuis"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_207"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:src="@mipmap/zaoan" />
+
+    <ImageView
+        android:id="@+id/fan"
+        android:layout_marginTop="@dimen/dp_13"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:src="@mipmap/fan"
+        android:layout_marginLeft="@dimen/dp_5"
+        />
+
+    <TextView
+        android:id="@+id/bo"
+        android:layout_marginTop="@dimen/dp_182"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在播放:Little star"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/sp_14"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/firsts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_182"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:text="用音乐开启宝宝的美好一天吧!"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/sp_14"
+        />
+    <View
+        android:layout_below="@+id/tuis"
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="#F1F1F1" />
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:layout_below="@+id/line2"
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <pl.droidsonroids.gif.GifImageView
+            android:src="@drawable/loadjia"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40" />
+    </LinearLayout>
+        <com.tiancaijiazu.app.utils.status.LoadingLayout
+            android:layout_width="match_parent"
+            android:id="@+id/loadingLayout"
+            app:isFirstVisible="true"
+            android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerview"
+        android:layout_below="@id/tuis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+        </com.tiancaijiazu.app.utils.status.LoadingLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loader"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</RelativeLayout>

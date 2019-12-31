@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/dp_280"
+        android:background="@mipmap/tiansj"
+        android:layout_centerInParent="true"
+        android:layout_height="@dimen/dp_258"
+        >
+        <TextView
+            android:id="@+id/ptexr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_17"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_132"
+            android:lineSpacingExtra="@dimen/dp_5"
+            android:text="本测评系统需要您先填写宝宝信息\n才能正常使用"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_59"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/pop_add_baby"
+            >
+            <TextView
+                android:id="@+id/guan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/sp_20"
+                android:textColor="#05E4F2"
+                android:gravity="center"
+                android:text="取消"/>
+
+            <TextView
+                android:id="@+id/go_ons"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/sp_20"
+                android:textColor="#05E4F2"
+                android:gravity="center"
+                android:text="去设置"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

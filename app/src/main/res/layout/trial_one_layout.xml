@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="@dimen/dp_55">
+        <ImageView
+            android:id="@+id/biao"
+            android:layout_width="@dimen/dp_14"
+            android:layout_height="@dimen/dp_15"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:src="@mipmap/star_biao"/>
+
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+            android:id="@+id/alarm_clock_father_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/biao"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_3"
+            android:text="的过分过分"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_13" />
+
+        <CheckBox
+            android:button="@null"
+            android:id="@+id/group_state"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_alignParentEnd="true"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:background="@drawable/select_ke_arrows"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerView"
+        android:layout_width="match_parent"
+        android:nestedScrollingEnabled="false"
+        android:visibility="gone"
+        android:overScrollMode="never"
+        android:layout_height="wrap_content"/>
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="#F1F1F1"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"/>
+</LinearLayout>

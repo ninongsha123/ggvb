@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <www.linwg.org.lib.LCardView
+        android:layout_width="@dimen/dp_260"
+        android:layout_height="@dimen/dp_240"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_170"
+
+        app:cornerRadius="@dimen/dp_5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/dp_18"
+                android:text="设置提醒时间"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_17" />
+            <RelativeLayout
+                android:layout_below="@id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingTop="@dimen/dp_15"
+                >
+
+                <com.tiancaijiazu.app.activitys.shopping_activity.datapickerclock.PickerLookImageView
+                    android:id="@+id/dpv_hour"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_120"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    />
+                <View
+                    android:id="@+id/v"
+                    android:background="#EBEBEB"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/dp_49"
+                    android:layout_height="0.5dp"/>
+                <com.tiancaijiazu.app.activitys.shopping_activity.datapickerclock.PickerLookImageView
+                    android:id="@+id/dpv_minute"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_toRightOf="@+id/dpv_hour"
+                    android:layout_height="@dimen/dp_120"
+                    />
+                <View
+                    android:layout_below="@+id/v"
+                    android:background="#EBEBEB"
+                    android:layout_marginTop="@dimen/dp_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"/>
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/ok"
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="@dimen/dp_35"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp_15"
+                android:src="@mipmap/ok_clock" />
+
+        </RelativeLayout>
+
+    </www.linwg.org.lib.LCardView>
+</RelativeLayout>

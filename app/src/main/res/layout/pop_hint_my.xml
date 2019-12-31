@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0636161"
+    >
+
+        <ImageView
+            android:id="@+id/tui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/tuijian"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp_42"
+            android:layout_marginRight="@dimen/dp_8"
+            >
+        </ImageView>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/youhui"
+            android:layout_below="@+id/tui"
+            android:layout_marginTop="@dimen/dp_149"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_marginLeft="@dimen/dp_4"
+            >
+        </ImageView>
+        <Button
+            android:id="@+id/my_locations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_34"
+            android:background="@mipmap/button_location"
+            android:layout_centerHorizontal="true"
+            >
+
+        </Button>
+
+
+
+</RelativeLayout>

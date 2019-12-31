@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.2"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/dp_280"
+        android:background="@mipmap/quanxian"
+        android:layout_centerInParent="true"
+        android:layout_height="@dimen/dp_410">
+
+        <TextView
+            android:layout_width="@dimen/dp_224"
+            android:layout_height="@dimen/dp_90"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_112"
+            android:lineSpacingExtra="@dimen/dp_3"
+            android:text="为方便您到最近的线下园所,本服务需要您授权“位置权限功能”以便给您推荐距离您位置最近的线下早教园所和幼教园所。"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_15" />
+        <TextView
+            android:layout_width="@dimen/dp_223"
+            android:layout_height="@dimen/dp_80"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_21"
+            android:lineSpacingExtra="@dimen/dp_5"
+            android:text="请到“手机设置”-“应用”-“权限管理”页面找到 天才家族 将位置信息权限设置为“打开”或“始终允许”状态"
+            android:textColor="#999999"
+            android:textSize="@dimen/sp_14" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_32"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/location_kowent"
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="@dimen/dp_44"
+                android:background="@drawable/bg_tab_go_on"
+                android:textSize="@dimen/sp_19"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="去设置"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

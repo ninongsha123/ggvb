@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relas"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_65">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="—— 2019年12月3日歌单 ——"
+            android:textColor="#999999"
+            android:layout_marginTop="@dimen/dp_19"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/sp_13"
+            />
+
+        <TextView
+            android:id="@+id/titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题：让音乐围绕在你身边"
+            android:textColor="#999999"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/sp_13"
+            />
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv"
+        android:layout_below="@+id/relas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

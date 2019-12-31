@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mLine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.7"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_400"
+        android:layout_marginTop="@dimen/dp_70">
+
+        <ImageView
+            android:id="@+id/mImg_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/dialog_img" />
+
+        <ImageView
+            android:id="@+id/cancle"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_33"
+            android:layout_marginTop="@dimen/dp_28"
+            android:src="@mipmap/dialog_guanbi" />
+
+        <ImageView
+            android:id="@+id/lingqu"
+            android:layout_width="@dimen/dp_244"
+            android:layout_height="@dimen/dp_56"
+            android:layout_below="@id/cancle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_244"
+            android:src="@mipmap/dialog_button" />
+    </RelativeLayout>
+</RelativeLayout>

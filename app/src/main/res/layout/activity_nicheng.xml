@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_earlveducation"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.activitypage.myactivity.NichengActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:id="@+id/iv_finis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:textSize="@dimen/sp_17"
+            android:textColor="@color/colorTextTitleHome"
+            android:text="取消" />
+
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:text="修改昵称"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_17" />
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:layout_marginRight="@dimen/dp_16"
+            android:text="完成"
+            android:textColor="#00DEFF"
+            android:textSize="@dimen/sp_17" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_12"
+        android:text="@string/feifazifu"
+        android:textSize="@dimen/sp_12" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_12"
+        android:background="@color/colorWhite">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:background="@color/colorWhite"
+            android:hint="2-6字"
+            android:paddingLeft="@dimen/dp_16"
+            android:maxLines="6"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead"
+            android:textCursorDrawable="@drawable/edit_gb"
+            android:textSize="@dimen/sp_15" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

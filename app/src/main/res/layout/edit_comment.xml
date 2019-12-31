@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50">
+        <TextView
+            android:id="@+id/config_hidden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            />
+        <EditText
+            android:id="@+id/edit_comment"
+            android:layout_width="@dimen/dp_0"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:imeOptions="actionSend"
+            android:background="@drawable/bg_tab_comm"
+            android:drawableLeft="@mipmap/comm"
+            android:drawablePadding="@dimen/dp_5"
+            android:textSize="@dimen/sp_13"
+            android:singleLine="true"
+            android:paddingRight="@dimen/dp_3"
+            android:hint="说点什么..."
+            android:paddingLeft="@dimen/dp_10"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead"
+            android:textCursorDrawable="@drawable/edit_pl" />
+        <TextView
+            android:id="@+id/fa_song"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_30"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:text="发送"/>
+    </LinearLayout>
+</LinearLayout>

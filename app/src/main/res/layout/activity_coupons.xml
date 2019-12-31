@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tiancaijiazu.app.activitys.coupons.CouponsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9F9F9"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_64"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:id="@+id/iv_finis"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:src="@mipmap/rec_back" />
+
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp_11"
+                android:text="我的优惠券"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_17" />
+        </RelativeLayout>
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relative">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9F9F9"
+                android:gravity="center">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:src="@drawable/loadjia" />
+            </LinearLayout>
+
+            <com.tiancaijiazu.app.utils.status.LoadingLayout
+                android:id="@+id/loadingLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:isFirstVisible="true">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never" />
+            </com.tiancaijiazu.app.utils.status.LoadingLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9F9F9"
+                android:gravity="center">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:src="@drawable/loader" />
+            </LinearLayout>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        <ImageView
+            android:id="@+id/state"
+            android:layout_width="@dimen/dp_160"
+            android:layout_height="@dimen/dp_180"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/no_coupon"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

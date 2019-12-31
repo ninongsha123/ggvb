@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_102"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_17"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/dp_6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="@dimen/dp_104"
+                android:layout_height="wrap_content"
+                android:text="邀请注册"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_16" />
+            <TextView
+                android:id="@+id/mobiles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_11"
+                android:text="15584859699"
+                />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/titlest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="购买学生卡"
+                android:layout_marginTop="@dimen/dp_9"
+                android:textColor="#333333"
+                android:textSize="@dimen/sp_16" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="今天  15:23"
+                    android:textColor="@color/colorTextSubhead"
+                    android:textSize="@dimen/sp_13" />
+
+                <ImageView
+                    android:id="@+id/iv"
+                    android:layout_width="@dimen/dp_54"
+                    android:layout_height="@dimen/dp_17"
+                    android:layout_marginLeft="@dimen/dp_20" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_17"
+            android:text="+ ￥150.00"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_17" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="#F1F1F1"/>
+</LinearLayout>

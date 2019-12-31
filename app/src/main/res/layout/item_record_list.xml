@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_96">
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorTextTitleHome"
+        android:textSize="@dimen/sp_15"
+        android:gravity="center"
+        android:text="2个月" />
+    <LinearLayout
+        android:id="@+id/line1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/month"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/v_line_top"
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:src="@drawable/circle_shape" />
+        <View
+            android:id="@+id/v_line_buttom"
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/heng"
+        android:layout_width="@dimen/dp_15"
+        android:layout_height="@dimen/dp_1"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/line1"
+        android:background="@color/colorZhu" />
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/heng"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_height="@dimen/dp_33">
+        <ImageView
+            android:id="@+id/date_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            />
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+            android:id="@+id/date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/baby_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_13"
+        android:textColor="@color/colorTextSubhead"
+        android:layout_alignLeft="@+id/rela"
+        android:layout_alignRight="@+id/rela"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_below="@+id/rela"
+        android:gravity="center"
+        />
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.tiancaijiazu.app.fragments.views.NiceImageView
+            android:id="@+id/iv"
+            android:layout_width="@dimen/dp_84"
+            android:layout_height="@dimen/dp_70"
+            android:layout_marginRight="@dimen/dp_6"
+            app:mask_color="#7f000000"
+            android:scaleType="fitXY" />
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="@dimen/dp_84"
+            android:layout_height="@dimen/dp_70"
+            >
+
+            <ImageView
+                android:id="@+id/iv_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/video_playing_min" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="抓取游戏"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/sp_12"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="@dimen/dp_7"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:textColor="@color/colorWhite"/>
+        </android.support.design.widget.CoordinatorLayout>
+    </FrameLayout>
+</LinearLayout>

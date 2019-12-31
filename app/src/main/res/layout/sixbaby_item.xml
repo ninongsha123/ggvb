@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginRight="@dimen/dp_10"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_55"
+        android:paddingLeft="@dimen/dp_11"
+        android:paddingRight="@dimen/dp_11"
+        android:scaleType="fitXY"
+        android:src="@mipmap/age_6_8" />
+
+</LinearLayout>

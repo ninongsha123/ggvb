@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.home_game_two.HomeGameActivity">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64">
+
+        <ImageView
+            android:id="@+id/iv_finis"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back" />
+
+        <CheckBox
+            android:visibility="gone"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_6"
+            android:layout_toLeftOf="@+id/share"
+            android:background="@drawable/select_collect_top"
+            android:button="@null" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/share"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_5"
+            android:src="@mipmap/share" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_20"
+        android:textColor="@color/colorTextTitleHome"
+        android:includeFontPadding="false"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginLeft="@dimen/dp_34"
+        android:text="吹蒲公英"/>
+    <com.tiancaijiazu.app.activitys.views.FlowGroupView
+        android:id="@+id/flow"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginLeft="@dimen/dp_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/geme_summery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/colorTextTitleHome"
+        android:includeFontPadding="false"
+        android:layout_marginLeft="@dimen/dp_33"
+        android:layout_marginRight="@dimen/dp_38"
+        android:layout_marginTop="@dimen/dp_30"
+        android:lineSpacingExtra="@dimen/dp_8"
+        android:text="很多妈咪都遇到过这种情况，母乳太少，婆婆说：这么点母乳也没啥用，不要给宝宝喝了；在卫生间垃圾桶里发现卫生巾，说来例假的母乳没营养了，不要给宝宝喝了；再后来，说喝母乳的宝宝太黏妈妈，都不能把他带回老家了，赶紧断奶吧；现在又说，攒了一天的母乳不好，不能给宝宝喝了…… "/>
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_190"
+        android:layout_marginLeft="@dimen/dp_33"
+        android:layout_marginRight="@dimen/dp_33"
+        android:layout_marginTop="@dimen/dp_26"
+        android:scaleType="fitXY"
+        />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context="com.tiancaijiazu.app.activitys.down.fragments.DownVideoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerView"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"/>
+    <ImageView
+        android:id="@+id/iv_not_video"
+        android:layout_width="@dimen/dp_160"
+        android:layout_height="@dimen/dp_180"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/down_video_not"/>
+    <com.tiancaijiazu.app.utils.shopvideo.MyJZVideoPlayerStandardShop
+        android:id="@+id/jiaozi_player"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

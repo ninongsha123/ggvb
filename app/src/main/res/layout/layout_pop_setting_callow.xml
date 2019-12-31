@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.2"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/dp_280"
+        android:layout_marginRight="@dimen/dp_38"
+        android:layout_marginLeft="@dimen/dp_38"
+        android:background="@mipmap/shengji1"
+        android:layout_centerInParent="true"
+        android:layout_height="@dimen/dp_375">
+        <TextView
+            android:layout_width="@dimen/dp_224"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_110"
+            android:textColor="#333333"
+            android:lineSpacingExtra="@dimen/dp_5"
+            android:text="为方便您联系团队成员,本功能需开启电话权限，开启后可以直接点击拨打团队成员电话。"/>
+
+        <TextView
+            android:layout_width="@dimen/dp_224"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_15"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_24"
+            android:textColor="#999999"
+            android:lineSpacingExtra="@dimen/dp_5"
+            android:text="请您到 手机设置- 应用 - 权限管理 页面找到 天才家族 将 电话权限设置为“打开”状态"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_32"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/go_ons"
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="@dimen/dp_44"
+                android:background="@drawable/bg_tab_go_on"
+                android:textSize="@dimen/sp_19"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="去设置"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

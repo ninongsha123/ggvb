@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="@dimen/dp_45">
+        <ImageView
+            android:id="@+id/jing"
+            android:layout_width="@dimen/dp_22"
+            android:layout_height="@dimen/dp_22"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:src="@mipmap/jing"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/colorTextTitleHome"
+            android:includeFontPadding="false"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/jing"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:text="NBA季后赛"/>
+
+        <View
+            android:id="@+id/v"
+            android:layout_below="@+id/rela"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorView"/>
+    </RelativeLayout>
+</RelativeLayout>

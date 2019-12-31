@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fs"
+        android:layout_width="@dimen/dp_155"
+        android:layout_height="@dimen/dp_25"
+        android:background="@drawable/bg_black"
+        android:layout_toLeftOf="@+id/sd"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/whok"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="谁可以看"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        <View
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="@dimen/dp_15"
+            android:background="@color/news_read"
+            />
+        <TextView
+            android:id="@+id/deletes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/sd"
+        android:layout_width="@dimen/dp_5"
+        android:layout_height="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:src="@mipmap/jiant"
+        android:layout_marginRight="@dimen/dp_32"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activitys.activitypage.collegeactivitys.VideoListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:id="@+id/l1near"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_64"
+                android:background="@color/colorWhite">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dp_2"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:src="@mipmap/rec_back" />
+
+                <ImageView
+                    android:id="@+id/music_down"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dp_2"
+                    android:layout_marginRight="@dimen/dp_5"
+                    android:src="@mipmap/music_down" />
+
+
+                <TextView
+                    android:id="@+id/title_music"
+                    android:layout_width="@dimen/dp_160"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_87"
+                    android:layout_marginRight="@dimen/dp_77"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="份感觉萨洛克老干部"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_17" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/l1near"
+                android:background="@color/colorWhite">
+                <RelativeLayout
+                    android:id="@+id/rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_282"
+                    android:layout_marginLeft="@dimen/dp_40"
+                    android:layout_marginRight="@dimen/dp_40"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_49">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/disk" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/dp_16"
+                        android:layout_centerInParent="true" />
+
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/circulation"
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_30"
+                        android:background="@drawable/selector_music_circle"
+                        android:button="@null" />
+
+                    <ImageView
+                        android:id="@+id/speed"
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_30"
+                        android:layout_marginLeft="@dimen/dp_35"
+                        android:src="@mipmap/speed1" />
+
+                    <ImageView
+                        android:id="@+id/darft"
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_30"
+                        android:layout_marginLeft="@dimen/dp_35"
+                        android:src="@mipmap/darft_icon" />
+
+                    <ImageView
+                        android:id="@+id/musiclist"
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_30"
+                        android:layout_marginLeft="@dimen/dp_35"
+                        android:src="@mipmap/musiclist_icon" />
+                </LinearLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/layout_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_below="@id/linear"
+                    android:layout_marginTop="@dimen/dp_35">
+
+                    <SeekBar
+                        android:id="@+id/seek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/endTime"
+                        android:layout_toRightOf="@+id/startTime"
+                        android:background="@null"
+                        android:max="100"
+                        android:maxHeight="@dimen/dp_3"
+                        android:minHeight="1dp"
+                        android:paddingEnd="@dimen/dp_12"
+                        android:paddingStart="@dimen/dp_12"
+                        android:progressDrawable="@drawable/jz_bottom_seek_music"
+                        android:thumb="@drawable/jz_bottom_seek" />
+
+                    <TextView
+                        android:id="@+id/startTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_16"
+                        android:text="00:00" />
+
+                    <TextView
+                        android:id="@+id/endTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp_16"
+                        android:text="00:00" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_time"
+                    android:layout_marginLeft="@dimen/dp_73"
+                    android:layout_marginRight="@dimen/dp_73"
+                    android:layout_marginBottom="@dimen/dp_35"
+                    android:layout_marginTop="@dimen/dp_23">
+
+                    <CheckBox
+                        android:id="@+id/pause"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/selector_vimusic_circle"
+                        android:button="@null" />
+
+                    <ImageView
+                        android:id="@+id/next"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@mipmap/next" />
+
+                    <ImageView
+                        android:id="@+id/last"
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_alignParentLeft="true"
+                        android:src="@mipmap/last" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rela"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_44"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/rl1"
+            android:background="@color/class_buy"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="购买"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_15" />
+
+                <TextView
+                    android:id="@+id/really_sice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_6"
+                    android:text="￥129"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_17" />
+
+                <TextView
+                    android:id="@+id/no_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_4"
+                    android:text="688"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_15" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include layout="@layout/to_load_layout" />
+
+</RelativeLayout>

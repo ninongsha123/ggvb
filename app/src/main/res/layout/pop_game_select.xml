@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.5"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_di"
+        android:clickable="true"
+        android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/text"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="@dimen/sp_13"
+           android:textColor="@color/colorTextTitleHome"
+           android:layout_marginLeft="@dimen/dp_17"
+           android:lineSpacingExtra="@dimen/dp_5"
+           android:layout_marginTop="@dimen/dp_21"
+           android:layout_marginRight="@dimen/dp_22"
+           android:text="今天的课程主要锻炼宝宝 数于运算 语言表达 逻辑思维 异国文化4项能力，请反馈宝宝的上课情况，为宝宝定制最合适的扩展游戏"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_13"
+            >
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recylerView"
+                android:layout_width="match_parent"
+                android:overScrollMode="never"
+                android:layout_marginTop="@dimen/dp_43"
+                android:nestedScrollingEnabled="false"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_18"
+            android:layout_marginBottom="@dimen/dp_18"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:src="@mipmap/custom_made_buttom"/>
+    </LinearLayout>
+
+</RelativeLayout>

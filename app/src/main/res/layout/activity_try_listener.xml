@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tiancaijiazu.app.utils.status.LoadingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loadingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:isFirstVisible="true"
+    tools:context=".activitys.activitypage.TryListenerActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/re"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_64"
+            android:background="@color/colorWhite">
+            <ImageView
+                android:id="@+id/iv_finis"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:src="@mipmap/rec_back" />
+
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                android:layout_width="wrap_content"
+                android:id="@+id/a"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp_11"
+                android:text="天才家族家庭早教"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_17" />
+
+            <ImageView
+                android:id="@+id/fen_xiang"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:layout_marginRight="@dimen/dp_5"
+                android:src="@mipmap/fenxiang_icon" />
+        </RelativeLayout>
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested"
+            android:layout_below="@id/re"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:overScrollMode="never"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/try1" />
+
+                <LinearLayout
+                    android:id="@+id/line"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp_23"
+                    android:layout_marginRight="@dimen/dp_23"
+                    android:layout_height="@dimen/dp_233">
+                    <FrameLayout
+                        android:id="@+id/frame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <com.tiancaijiazu.app.utils.audition.MyJZVideoPlayerStandardAudition
+                            android:id="@+id/jiaozi_player"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_185"/>
+                        <RelativeLayout
+                            android:id="@+id/rela"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                                <ImageView
+                                android:id="@+id/iv_play"
+                                android:layout_width="@dimen/dp_50"
+                                android:layout_height="@dimen/dp_50"
+                                android:layout_centerInParent="true"
+                                android:src="@mipmap/max_play_audition" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                </LinearLayout>
+                <ImageView
+                    android:src="@mipmap/try2"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@mipmap/try3"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@mipmap/try4"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@mipmap/try5"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:src="@mipmap/try6"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:alpha="0.5"
+            android:background="@drawable/coner_try"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_below="@+id/re"
+            android:gravity="center_vertical"
+            android:layout_height="@dimen/dp_30">
+            <ImageView
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:src="@mipmap/bo_ling" />
+            <com.tiancaijiazu.app.activitys.views.TextSwitchView
+                android:id="@+id/textSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/get_try_card"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_7"
+            android:src="@mipmap/get_try_listener"
+            android:layout_width="@dimen/dp_339"
+            android:layout_height="@dimen/dp_55"/>
+    </RelativeLayout>
+
+</com.tiancaijiazu.app.utils.status.LoadingLayout>

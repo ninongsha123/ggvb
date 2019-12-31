@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_158"
+        android:background="#000000"
+        android:alpha="0.5"/>
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_158"
+            android:background="#000000"
+            android:alpha="0.5"/>
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/guige_back">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/comm_picture"
+                android:layout_width="@dimen/dp_100"
+                app:riv_corner_radius="@dimen/dp_5"
+                android:layout_height="@dimen/dp_100"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_16"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/pop_cancle"
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_12"
+                android:layout_marginTop="@dimen/dp_12"
+                android:src="@mipmap/guige_cancle" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/comm_picture"
+                android:layout_alignBottom="@+id/comm_picture"
+                android:layout_alignTop="@+id/comm_picture"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/promo_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:text="89"
+                        android:textColor="@color/shopping"
+                        android:textSize="@dimen/sp_19" />
+
+                        <TextView
+                            android:id="@+id/yuan_jia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="¥ 98"
+                            android:layout_marginLeft="@dimen/dp_7"
+                            android:textColor="@color/colorTextSubhead"
+                            android:textSize="@dimen/sp_12" />
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_kucun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="(库存剩余0)"
+                    android:textColor="@color/colorTextSubhead"
+                    android:textSize="@dimen/sp_12" />
+                <TextView
+                    android:id="@+id/guige"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请选择 规格 数量"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/container"
+            android:background="@color/colorWhite">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rlv"
+                android:layout_width="match_parent"
+                android:background="@color/colorWhite"
+                android:overScrollMode="never"
+                android:layout_height="@dimen/dp_0"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/iv_ok"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_height="@dimen/dp_37"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:src="@mipmap/guige_ok" />
+            <LinearLayout
+                android:id="@+id/click_standard"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/add_to_cart"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/dp_37"
+                    android:src="@mipmap/add_to_cart"/>
+                <ImageView
+                    android:id="@+id/buy_immediately"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/dp_37"
+                    android:src="@mipmap/buy_immediately"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

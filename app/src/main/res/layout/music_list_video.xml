@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:alpha="0.7"/>
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40">
+        <TextView
+            android:id="@+id/content_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容列表(68)"
+            android:textColor="@color/colorTextSubhead"
+            android:textSize="@dimen/sp_13"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_16"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerView"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="@dimen/dp_310"/>
+</LinearLayout>

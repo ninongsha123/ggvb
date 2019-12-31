@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80">
+
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_103"
+            android:layout_marginTop="@dimen/dp_20"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:includeFontPadding="false"
+            android:textColor="@color/new_knowlege"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:includeFontPadding="false"
+            android:layout_marginTop="@dimen/dp_17"
+            android:textColor="@color/new_kno_time"
+            android:layout_toLeftOf="@+id/ivplay"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/sp_12" />
+
+
+        <ImageView
+            android:id="@+id/ivplay"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_16"
+            android:src="@mipmap/kn_play" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="#F1F1F1" />
+</LinearLayout>

@@ -1,0 +1,322 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F5F9"
+    tools:context="com.tiancaijiazu.app.activitys.bringfragments.ConsistingOfFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_sou"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/bg_tab_edit"
+            android:drawableLeft="@mipmap/sou"
+            android:drawablePadding="@dimen/dp_8"
+            android:focusableInTouchMode="false"
+            android:hint="输入关键词，搜索宝宝辅食"
+            android:paddingLeft="@dimen/dp_74"
+            android:paddingRight="@dimen/dp_10"
+            android:textColor="@color/colorTextTitleHome"
+            android:textColorHint="@color/colorTextSubhead"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/rela1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@drawable/bg_di">
+
+                <LinearLayout
+                    android:id="@+id/heng1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_41"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/biao_ji_one"
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_36"
+                        android:src="@mipmap/jiao_biao_one" />
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:includeFontPadding="false"
+                        android:text="分龄选择"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0_5"
+                    android:layout_below="@+id/heng1"
+                    android:layout_marginLeft="@dimen/dp_22"
+                    android:background="@color/colorView" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/v1"
+                    android:overScrollMode="never"
+                    android:nestedScrollingEnabled="false"
+                    android:paddingBottom="@dimen/dp_22"
+                    android:paddingLeft="@dimen/dp_17"
+                    android:paddingRight="@dimen/dp_17"
+                    android:paddingTop="@dimen/dp_5" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rela1"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@drawable/bg_di">
+
+                <LinearLayout
+                    android:id="@+id/heng2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_41"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/biao_ji_two"
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_36"
+                        android:src="@mipmap/jiao_biao_two" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:includeFontPadding="false"
+                        android:text="营养辅食"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/v2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0_5"
+                    android:layout_below="@+id/heng2"
+                    android:layout_marginLeft="@dimen/dp_22"
+                    android:background="@color/colorView" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView2"
+                    android:layout_width="match_parent"
+                    android:overScrollMode="never"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/v2"
+                    android:nestedScrollingEnabled="false"
+                    android:paddingBottom="@dimen/dp_22"
+                    android:paddingLeft="@dimen/dp_17"
+                    android:paddingRight="@dimen/dp_17"
+                    android:paddingTop="@dimen/dp_5" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rela2"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@drawable/bg_di">
+
+                <LinearLayout
+                    android:id="@+id/heng3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_41"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/biao_ji_three"
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_36"
+                        android:src="@mipmap/jiao_biao_three" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:includeFontPadding="false"
+                        android:text="宝宝生病辅食"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/v3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0_5"
+                    android:layout_below="@+id/heng3"
+                    android:layout_marginLeft="@dimen/dp_22"
+                    android:background="@color/colorView" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView3"
+                    android:layout_width="match_parent"
+                    android:overScrollMode="never"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/v3"
+                    android:nestedScrollingEnabled="false"
+                    android:paddingBottom="@dimen/dp_22"
+                    android:paddingLeft="@dimen/dp_17"
+                    android:paddingRight="@dimen/dp_17"
+                    android:paddingTop="@dimen/dp_5" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rela4"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:background="@drawable/bg_di">
+
+                <LinearLayout
+                    android:id="@+id/heng5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_41"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/biao_ji_five"
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_36"
+                        android:src="@mipmap/jiao_biao_five" />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:includeFontPadding="false"
+                        android:text="常见辅食分类"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/v5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0_5"
+                    android:layout_below="@+id/heng5"
+                    android:layout_marginLeft="@dimen/dp_22"
+                    android:background="@color/colorView" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/v5"
+                    android:paddingBottom="@dimen/dp_22"
+                    android:nestedScrollingEnabled="false"
+                    android:overScrollMode="never"
+                    android:paddingLeft="@dimen/dp_17"
+                    android:paddingRight="@dimen/dp_17"
+                    android:paddingTop="@dimen/dp_5" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rela3"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+
+                android:background="@drawable/bg_di">
+
+                <LinearLayout
+                    android:id="@+id/heng4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_41"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/biao_ji_four"
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_36"
+                        android:src="@mipmap/jiao_biao_four" />
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:includeFontPadding="false"
+                        android:text="宝宝生病辅食"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/v4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0_5"
+                    android:layout_below="@+id/heng4"
+                    android:layout_marginLeft="@dimen/dp_22"
+                    android:background="@color/colorView" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/v4"
+                    android:paddingBottom="@dimen/dp_22"
+                    android:nestedScrollingEnabled="false"
+                    android:overScrollMode="never"
+                    android:paddingLeft="@dimen/dp_17"
+                    android:paddingRight="@dimen/dp_17"
+                    android:paddingTop="@dimen/dp_5" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

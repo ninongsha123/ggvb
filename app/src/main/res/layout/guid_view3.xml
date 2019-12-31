@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/start3"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="@dimen/dp_160"
+        android:layout_height="@dimen/dp_35"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/dp_100"
+        android:background="@drawable/button_shape"
+        android:text="点击进入"
+        android:textColor="@color/colorZhu"
+        android:textSize="@dimen/sp_18"
+        android:visibility="visible" />
+</FrameLayout>

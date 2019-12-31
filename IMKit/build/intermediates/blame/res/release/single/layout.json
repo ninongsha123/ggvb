@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_rich_content_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_rich_content_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_group_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_group_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_item_single_choice.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_item_single_choice.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_real_time_activity_2d.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_real_time_activity_2d.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_icon_rt_location_marker.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_icon_rt_location_marker.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_phrases_pager.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_phrases_pager.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_input_edit_text.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_input_edit_text.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_conversationlist.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_conversationlist.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_base_activity_layout.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_base_activity_layout.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_dialog_popup_options_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_dialog_popup_options_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_plugin_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_plugin_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_file_download.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_file_download.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_gif_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_gif_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_gif_preview.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_gif_preview.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_alert_robot_evaluation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_alert_robot_evaluation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_file_preview_content.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_file_preview_content.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_information_notification_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_information_notification_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_rich_content_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_rich_content_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_dialog_alter.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_dialog_alter.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_search.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_search.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_preview_activity.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_preview_activity.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_indicator.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_indicator.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_photo.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_photo.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_plugin_location_activity.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_plugin_location_activity.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_input_pager_layout.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_input_pager_layout.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_text_message_evaluate.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_text_message_evaluate.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_messagelist.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_messagelist.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_image_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_image_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_progress.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_progress.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_multi_rich_content_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_system_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_system_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_discussion_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_discussion_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_sight_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_sight_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_activity.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_picsel_activity.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_dialog_popup_prompt_warning.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_dialog_popup_prompt_warning.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_file_list_adapter.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_wi_file_list_adapter.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_block_popup.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_wi_block_popup.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_notification_realtime_location.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_notification_realtime_location.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_voice_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_voice_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_share_location_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_share_location_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_marker_info_window.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_marker_info_window.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_leave_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_leave_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_base_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_base_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_input_menu.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menu.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_webview.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_webview.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_public_service_search.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_public_service_search.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_single_choice_layout.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_single_choice_layout.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_public_service_inf.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_public_service_inf.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_location_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_new_message_divider.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_new_message_divider.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_emoji_grid_view.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_emoji_grid_view.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_extension_bar.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_extension_bar.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_evaluate.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_evaluate.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_app_service_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_app_service_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_refresh_list_view.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_refresh_list_view.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_plugin_location_activity_2d.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_plugin_location_activity_2d.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_grid_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_picsel_grid_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_phrases_list_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_phrases_list_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_root_menu_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_root_menu_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_sub_menu_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_sub_menu_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_public_service_sub_list.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_public_service_sub_list.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_map_nearby_info_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_map_nearby_info_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_preview_activity_2d.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_preview_activity_2d.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_alert_human_evaluation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_alert_human_evaluation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_search_activity.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_search_activity.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_block.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_wi_block.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_plugin_pager.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_plugin_pager.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_emoji_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_emoji_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_catalog_listview.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_picsel_catalog_listview.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_conversation.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_conversation.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_list.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_list.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_camera.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_camera.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_emoticon_tab_container.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_emoticon_tab_container.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_dialog_popup_options.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_dialog_popup_options.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_camera.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_camera.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fragment_base_setting.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fragment_base_setting.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_conversation_member.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_conversation_member.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_conversation_member_list.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_conversation_member_list.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_file_manager.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_file_manager.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_input_menus.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menus.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_notice.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_wi_notice.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_file_list.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_file_list.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_input_menu_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_input_menu_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_file_list.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_file_list.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_wi_vo_popup.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_wi_vo_popup.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_mention_members.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_mention_members.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_actions_container.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_actions_container.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_conversation_notification_container.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_conversation_notification_container.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_plugin_grid_view.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_plugin_grid_view.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_picture_pager.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_picture_pager.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_file_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_file_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_public_service_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_real_time_activity.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_real_time_activity.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_image.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_fr_image.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_layout_network_unavailable.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_layout_network_unavailable.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_hq_voice_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_hq_voice_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_mention_list_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_mention_list_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_search_title_bar.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_search_title_bar.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_dialog_popup_prompt.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_dialog_popup_prompt.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_location_search_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_location_search_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_pic_popup_window.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_pic_popup_window.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\view_footer.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\view_footer.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picprev_activity.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_picprev_activity.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_emoticon_tab_item.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_emoticon_tab_item.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_cs_alert_warning.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_cs_alert_warning.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ac_albums.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ac_albums.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_preview.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_picsel_preview.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_voice_input.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_voice_input.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_menu_container.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_menu_container.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_group_information_notification_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_group_information_notification_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\942b46b45d8e1ebe864457b63dd62f23\\support-media-compat-26.1.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_preview_fragment.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_preview_fragment.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_sub_menu_container.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_sub_menu_container.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_picsel_grid_camera.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_picsel_grid_camera.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_text_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_text_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_discussion_notification_message.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_item_discussion_notification_message.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_ext_emoji_pager.xml",
+        "source": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\src\\main\\res\\layout\\rc_ext_emoji_pager.xml"
+    }
+]

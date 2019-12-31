@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <www.linwg.org.lib.LCardView
+        android:layout_width="@dimen/dp_270"
+        android:layout_height="@dimen/dp_120"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cornerRadius="@dimen/dp_10">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+       android:layout_marginTop="@dimen/dp_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每月的1日-7日是平台结算时间，"
+        android:textColor="#ff333333"
+        android:textSize="@dimen/sp_15"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在此期间不可申请提现"
+        android:textColor="#ff333333"
+        android:textSize="@dimen/sp_15"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dp_10"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="@color/colorView"/>
+
+    <TextView
+        android:id="@+id/fanhui"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:gravity="center"
+        android:textColor="#16D0FF"
+        android:text="返回"/>
+        </LinearLayout>
+    </www.linwg.org.lib.LCardView>
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="arcHeight" format="dimension" />
+    <declare-styleable name="ArcView">
+        <attr name="arcHeight" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ArcImageView">
+        <attr name="arcHeight" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NineGridLayout">
+        <attr name="sapcing" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="NiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="BarPercentView">
+        <!--进度条高度-->
+        <attr name="barHeight" format="dimension" />
+        <!--圆角矩形半径-->
+        <attr name="barRadius" format="integer" />
+        <!--进度条背景色-->
+        <attr name="barBgColor" format="reference" />
+        <!--进度条颜色-->
+        <attr name="barProgressColor" format="reference" />
+        <!--渐变开始颜色-->
+        <attr name="barStartColor" format="reference" />
+        <!--渐变结束颜色-->
+        <attr name="barEndColor" format="reference" />
+        <!--是否渐变-->
+        <attr name="barIsGradient" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CropImageView">
+        <attr name="cropMaskColor" format="color"/>
+        <attr name="cropBorderColor" format="color"/>
+        <attr name="cropBorderWidth" format="dimension"/>
+        <attr name="cropFocusWidth" format="dimension"/>
+        <attr name="cropFocusHeight" format="dimension"/>
+        <attr name="cropStyle" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+    </declare-styleable>
+    <color name="btn_cancel_color">#00DEFF</color>
+    <color name="btn_confirm_color">#303F9F</color>
+    <declare-styleable name="LoopView"><attr name="view_gravity">
+        <enum name="center" value="17"/>
+        <enum name="left" value="3"/>
+        <enum name="right" value="5"/>
+    </attr><attr format="color" name="lineColor"/><attr format="color" name="topBottomTextColor"/><attr format="color" name="centerTextColor"/><attr format="dimension" name="textSize"/><attr format="boolean" name="canLoop"/><attr format="integer" name="initPosition"/><attr format="integer" name="drawItemCount"/><attr format="float" name="lineSpacingMultiplier"/><attr format="reference|integer" name="npv_ShowCount"/><attr format="reference|boolean" name="npv_ShowDivider"/><attr format="reference|color" name="npv_DividerColor"/><attr format="reference|dimension" name="npv_DividerMarginLeft"/><attr format="reference|dimension" name="npv_DividerMarginRight"/><attr format="reference|dimension" name="npv_DividerHeight"/><attr format="reference|color" name="npv_TextColorNormal"/><attr format="reference|color" name="npv_TextColorSelected"/><attr format="reference|color" name="npv_TextColorHint"/><attr format="reference|dimension" name="npv_TextSizeNormal"/><attr format="reference|dimension" name="npv_TextSizeSelected"/><attr format="reference|dimension" name="npv_TextSizeHint"/><attr format="reference" name="npv_TextArray"/><attr format="reference|integer" name="npv_MinValue"/><attr format="reference|integer" name="npv_MaxValue"/><attr format="reference|boolean" name="npv_WrapSelectorWheel"/><attr format="reference|boolean" name="npv_RespondChangeOnDetached"/><attr format="reference|string" name="npv_HintText"/><attr format="reference|string" name="npv_EmptyItemHint"/><attr format="reference|dimension" name="npv_MarginStartOfHint"/><attr format="reference|dimension" name="npv_MarginEndOfHint"/><attr format="reference|dimension" name="npv_ItemPaddingHorizontal"/><attr format="reference|dimension" name="npv_ItemPaddingVertical"/><attr format="reference|boolean" name="npv_RespondChangeInMainThread"/><attr format="reference|string" name="npv_TextEllipsize"/><attr format="reference" name="npv_AlternativeTextArrayWithMeasureHint"/><attr format="reference" name="npv_AlternativeTextArrayWithoutMeasureHint"/><attr format="reference|string" name="npv_AlternativeHint"/></declare-styleable>
+    <dimen name="btn_text_size">16sp</dimen>
+    <dimen name="view_text_size">16sp</dimen>
+
+    <declare-styleable name="MaterialCalendarView">
+
+        <attr name="mcv_dateTextAppearance" format="reference"/>
+        <attr name="mcv_weekDayTextAppearance" format="reference"/>
+        <attr name="mcv_headerTextAppearance" format="reference"/>
+
+        <attr name="mcv_leftArrow" format="reference"/>
+        <attr name="mcv_rightArrow" format="reference"/>
+        <attr name="mcv_selectionColor" format="color"/>
+
+        <attr name="mcv_showOtherDates" format="integer">
+            <flag name="none" value="0"/>
+            <flag name="other_months" value="1"/>
+            <flag name="out_of_range" value="2"/>
+            <flag name="decorated_disabled" value="4"/>
+            <flag name="defaults" value="4"/>
+            <flag name="all" value="7"/>
+        </attr>
+
+        <attr name="mcv_allowClickDaysOutsideCurrentMonth" format="boolean"/>
+        <attr name="mcv_showWeekDays" format="boolean"/>
+
+        <attr name="mcv_weekDayLabels" format="reference"/>
+        <attr name="mcv_monthLabels" format="reference"/>
+
+        <!-- We want to accept match_parent but not wrap_content. It'd be better if we could
+        point to the real match_parent constant, but since it hasn't change since API 1,
+        I think it's safe to hardcode it-->
+        <attr name="mcv_tileSize" format="dimension">
+            <enum name="match_parent" value="-1"/>
+        </attr>
+        <attr name="mcv_tileHeight" format="dimension">
+            <enum name="match_parent" value="-1"/>
+        </attr>
+        <attr name="mcv_tileWidth" format="dimension">
+            <enum name="match_parent" value="-1"/>
+        </attr>
+
+        <attr name="mcv_firstDayOfWeek" format="enum">
+            <enum name="monday" value="1"/>
+            <enum name="tuesday" value="2"/>
+            <enum name="wednesday" value="3"/>
+            <enum name="thursday" value="4"/>
+            <enum name="friday" value="5"/>
+            <enum name="saturday" value="6"/>
+            <enum name="sunday" value="7"/>
+        </attr>
+
+        <attr name="mcv_calendarMode" format="enum">
+            <enum name="month" value="0"/>
+            <enum name="week" value="1"/>
+        </attr>
+
+        <attr name="mcv_selectionMode" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="single" value="1"/>
+            <enum name="multiple" value="2"/>
+            <enum name="range" value="3"/>
+        </attr>
+
+        <attr name="mcv_titleAnimationOrientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LoadingLayout">
+
+        <attr name="isFirstVisible" format="boolean"></attr>
+        <attr name="pageBackground" format="reference|color"></attr>
+
+    </declare-styleable>
+</resources>

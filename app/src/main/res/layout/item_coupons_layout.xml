@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_110"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="@dimen/dp_95"
+                android:layout_height="match_parent"
+                android:src="@mipmap/sawtooth" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¥"
+                    android:layout_marginBottom="@dimen/dp_2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_15" />
+
+                <TextView
+                    android:id="@+id/coupnfee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_20" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/coupons_back">
+
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_11"
+                android:layout_marginTop="@dimen/dp_19"
+                android:layout_toLeftOf="@+id/iv"
+                android:singleLine="true"
+                android:text="新人商城12元门槛券"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/da"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="@dimen/dp_11"
+                android:layout_marginTop="@dimen/dp_8"
+                android:layout_toLeftOf="@+id/iv"
+                android:singleLine="true"
+                android:text="2019-07-31至2019-08-07"
+                android:textColor="@color/colorTextSubhead"
+                android:textSize="@dimen/sp_10" />
+
+            <TextView
+                android:id="@+id/xianzhi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/da"
+                android:layout_marginLeft="@dimen/dp_11"
+                android:layout_toLeftOf="@+id/iv"
+                android:text="满20元可用"
+                android:textColor="@color/colorTextSubhead"
+                android:textSize="@dimen/sp_11" />
+
+            <TextView
+                android:id="@+id/tiaojian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xianzhi"
+                android:layout_marginLeft="@dimen/dp_11"
+                android:layout_toLeftOf="@+id/iv"
+                android:text="限购"
+                android:textColor="@color/colorTextSubhead"
+                android:textSize="@dimen/sp_11" />
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="@dimen/dp_60"
+                android:layout_height="@dimen/dp_60"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_10"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

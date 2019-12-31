@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\projects\\GeniusFamily.APP.Android\\IMKit\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\edb77d546bc5937296b93d9c75d4eb59\\support-compat-27.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

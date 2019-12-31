@@ -1,0 +1,261 @@
+<com.tiancaijiazu.app.utils.status.LoadingLayout
+    app:isFirstVisible="true"
+    android:id="@+id/loadinglayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_41"
+            android:visibility="gone"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="@color/colorView" />
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:background="@color/color_earlveducation"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/color_earlveducation"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <pl.droidsonroids.gif.GifImageView
+                android:src="@drawable/loadjia"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40" />
+        </LinearLayout>
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <View
+                    android:id="@+id/ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10"
+                    android:background="@color/color_earlveducation" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_class_top"
+                    android:orientation="vertical">
+
+                    <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                        android:id="@+id/xiao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_18"
+                        android:text="天才家族家庭早教课"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_17" />
+
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/into"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_193"
+                        android:layout_marginLeft="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_6"
+                        android:layout_marginRight="@dimen/dp_16"
+                        android:layout_marginBottom="@dimen/dp_12"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/early_into"
+                        app:riv_corner_radius_bottom_left="@dimen/dp_0"
+                        app:riv_corner_radius_bottom_right="@dimen/dp_0"
+                        app:riv_corner_radius_top_left="@dimen/dp_5"
+                        app:riv_corner_radius_top_right="@dimen/dp_5" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/dp_0"
+                            android:layout_marginLeft="@dimen/dp_30"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/sum"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/sp_17"
+                                android:textColor="#43DEFF"
+                                android:text=""/>
+                            <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/sp_12"
+                                android:textColor="@color/colorTextTitleHome"
+                                android:text="位宝宝正在上课"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/bt"
+                            android:layout_width="@dimen/dp_100"
+                            android:layout_height="@dimen/dp_30"
+                            android:textColor="#43DEFF"
+                            android:textSize="@dimen/sp_14"
+                            android:layout_marginRight="@dimen/dp_31"
+                            android:background="@drawable/bg_class_mian"
+                            android:gravity="center"
+                            android:text="免费试听"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10"
+                    android:background="@color/color_earlveducation" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_class_top"
+                    android:orientation="vertical">
+
+                    <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                        android:id="@+id/new1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_18"
+                        android:text="新课速递"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_17" />
+                    <www.linwg.org.lib.LCardView
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/dp_4"
+                        android:layout_marginRight="@dimen/dp_4"
+                        android:layout_marginTop="@dimen/dp_3"
+                        app:shadowSize="@dimen/dp_12"
+                        app:shadowColor="#003BFF"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:shadowFluidShape="linear"
+                        app:cornerRadius="@dimen/dp_5"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:id="@+id/rl1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/littlegenius1"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dp_150"
+                                android:scaleType="fitXY"
+                                app:riv_corner_radius_bottom_left="@dimen/dp_0"
+                                app:riv_corner_radius_bottom_right="@dimen/dp_0"
+                                app:riv_corner_radius_top_left="@dimen/dp_5"
+                                app:riv_corner_radius_top_right="@dimen/dp_5" />
+                            <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                                android:id="@+id/title"
+                                android:layout_below="@+id/littlegenius1"
+                                android:layout_marginTop="@dimen/dp_10"
+                                android:layout_marginLeft="@dimen/dp_16"
+                                android:layout_marginRight="@dimen/dp_16"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dp_10"
+                                android:maxLines="2"
+                                android:ellipsize="end"
+                                android:textSize="@dimen/sp_15"
+                                android:textColor="@color/colorTextTitleHome"
+                                />
+                        </RelativeLayout>
+                    </www.linwg.org.lib.LCardView>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10"
+                    android:background="@color/color_earlveducation" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_class_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                        android:id="@+id/hao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_17"
+                        android:layout_marginTop="@dimen/dp_22"
+                        android:text="好课推荐"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_17" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rvle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_12"
+                        android:nestedScrollingEnabled="false"
+                        android:layout_marginRight="@dimen/dp_11"
+                        android:layout_marginTop="@dimen/dp_17" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10"
+                    android:background="@color/color_earlveducation" />
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/color_earlveducation"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_50">
+                    <View
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/colorTextSubhead"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/sp_15"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:text="培养天才领袖 振兴家族未来"/>
+                    <View
+                        android:layout_width="@dimen/dp_22"
+                        android:layout_height="@dimen/dp_1"
+                        android:background="@color/colorTextSubhead"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </LinearLayout>
+</com.tiancaijiazu.app.utils.status.LoadingLayout>
+

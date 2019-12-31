@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.activitypage.homepageactivitys.Game_xiangActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/iv_finis"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back" />
+
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_6"
+            android:layout_toLeftOf="@id/share"
+            android:src="@mipmap/coll" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/share"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_5"
+            android:src="@mipmap/share" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/colorView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_18"
+        android:text="牵绳取物"
+        android:textColor="@color/colorTextTitleHome"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_17"
+        android:layout_marginRight="@dimen/dp_28"
+        android:layout_marginTop="@dimen/dp_19"
+        android:lineSpacingExtra="@dimen/dp_8"
+        android:text="家长准备一张纸，剪成好多张2-3厘米长的小纸条，将一条一条的纸条粘成弓形在小桌上，好了，一条小隧道做好了，拿一个海洋球给宝宝，让宝宝朝海洋球吹气，把海洋球吹进小隧道，过完隧道就是闯关成功，这个游戏可以锻炼宝宝的肺活量哦。（可以根据宝宝年龄大小调整拱形隧道的长度）"
+        android:textColor="@color/colorTextTitleHome"
+        android:textSize="@dimen/sp_15" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_193"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_17"
+        android:background="@color/colorView" />
+
+</LinearLayout>

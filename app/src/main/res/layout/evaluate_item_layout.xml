@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<CheckBox
+    android:button="@null"
+    android:background="@drawable/select_evaluate_start"
+    android:id="@+id/start_evaluate"
+    android:layout_width="@dimen/dp_25"
+    android:layout_height="@dimen/dp_25"/>
+</LinearLayout>

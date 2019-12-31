@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tiancaijiazu.app.activitys.evalua.EvaluaBabyActivity">
+    <com.tiancaijiazu.app.utils.status.LoadingLayout
+        app:isFirstVisible="true"
+        android:id="@+id/loadingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="#F9F9F9"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_64"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorWhite">
+
+                <ImageView
+                    android:id="@+id/iv_finis"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dp_2"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:src="@mipmap/rec_back" />
+
+                <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                    android:id="@+id/a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp_11"
+                    android:text="宝宝选择"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_17" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_17"
+                android:textColor="@color/colorTextTitleHome"
+                android:layout_marginTop="@dimen/dp_21"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:text="选择需要测评的宝宝"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recylerView"
+                android:layout_marginTop="@dimen/dp_13"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.tiancaijiazu.app.utils.status.LoadingLayout>
+
+</RelativeLayout>

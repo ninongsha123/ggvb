@@ -1,0 +1,224 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="previous">Go to previous</string>
+    <string name="next">Go to next</string>
+    <string name="calendar">Calendar</string>
+    <string name="app_name">天才家族</string>
+    <string name="introduce">投资早教收获未来</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //导航栏
+    <string name="home_page">首页</string>
+    <string name="college">学院</string>
+    <string name="parenting_encyclopedia">家族圈</string>
+    <string name="shopping_mall">家族团购商城</string>
+    <string name="my">我的</string>
+
+    <string name="hello">Hello World, JPush!</string>
+    <string name="tag_hint">Tag can be number, alphabet, underscore, Chinese. Use , to split many tags.</string>
+    <string name="alias_hint">Alias can be number, alphabet, underscore, Chinese.</string>
+    <string name="mobilenumber_hint">The phone number can only start with a "+" or a number,other can only contain "-" and Numbers</string>
+    <string name="style_hint">style should be number</string>
+    <string name="error_style_empty">style cannot be empty</string>
+    <string name="error_alias_empty">alias cannot be empty</string>
+    <string name="error_tag_empty">tag cannot be empty</string>
+    <string name="error_tag_gs_empty">Invalid format</string>
+    <string name="mobilenumber_empty_guide">will clear last set phone number</string>
+    <string name="error_network">Failed to init due to network exception.</string>
+    <string name="logining">Running in background. Please see log.</string>
+    <string name="setting_su">Succeed to set</string>
+    <string name="video_loading_faild">Video loading failed</string>
+    <string name="click_to_restart">Click to try again</string>
+    <string name="bring_up">育儿百科</string>
+    <string name="online_college">线上学院</string>
+    <string name="offline_class">线下课堂</string>
+    <string name="family_mall">家族商城</string>
+
+    //home 模块
+    <string name="title_one">每日早教短视频</string>
+    <string name="title_two">家族小电台</string>
+    <string name="title_three">每日在家早教时间</string>
+    <string name="title_four">家族圈热议</string>
+    <string name="subhead">全部</string>
+    <string name="text">more</string>
+    <string name="subhead_classroom">全部</string>
+    <string name="use_name">有趣的灵魂</string>
+    <string name="title_top">天才家族</string>
+    <string name="title_community">多地爆发，传染性极强！是你的卡不付款浓缩咖啡呢</string>
+    <string name="title_data">你手机发你你说卡饭能，看房能看房了可能三鹿奶粉空文件时间富婆是免费了，入说了法门寺牢骚满腹</string>
+    //College模块
+    <string name="college_one">家庭学院</string>
+    <string name="college_two">早教学院</string>
+    <string name="college_three">天赋学院</string>
+    <string name="college_four">智慧学院</string>
+    <string name="college_title">艺术感知探索课</string>
+    <string name="college_age">1岁3个月-3岁</string>
+    <string name="college_qi">起</string>
+    <string name="college_yuan">¥ 79</string>
+    <string name="college_data">抓住1.5-3岁艺术敏感期，斯诺克力帆你数据库范式你看懒得来看菲利克斯</string>
+
+
+    <string name="shoppong_top_one">热门</string>
+    <string name="shoppong_top_two">最新</string>
+    <string name="shoppong_top_three">育儿</string>
+    <string name="shoppong_top_four">亲子</string>
+    <string name="shoppong_top_five">早教</string>
+
+
+    <string name="ceshi">成为 终身代言人 可以免费学习\n一年父母学院课程和早教学院课程（带全年教具）</string>
+    <string name="ceshi55">方法一：\n
+如果您身边有天才家族早教园园长，联系他们获取推荐码\n
+\n
+方法二：\n
+添加天才家族官方微信客服（1、点击复制或搜索微信号：
+ A1531551055  添加好友。2、截图下方微信名片后点开微信——右上角”扫一扫“扫码即可添加好友 \n\n添加成功后由官方客服根据您的位置给你推荐最近推荐人的推荐码。 </string>
+    <string name="useragreen">特别提示:\n
+在您使用天才家族早教软件前，请认真阅读、充分理解本《用户注册协议》（以下简称《协议》）中各条款，包括免除或者限制天才家族早教责任的免责条款及对用户的权利限制条款。请您审慎阅读并选择接受或不接受本《协议》（未成年人应在法定监护人陪同下阅读）。除非您接受本《协议》所有条款，否则您无权下载、安装或使用本软件及其相关服务。您的下载、安装、使用、帐号获取和登录等行为将视为对本《协议》的接受，并同意接受本《协议》各项条款的约束。\n
+本《协议》是您（下称“用户”）与北京天才家族教育科技有限公司（以下简称“天才家族”）及其运营合作单位（下称“合作单位”）之间关于用户下载、安装、使用、复制“天才家族早教软件”；注册、使用、管理天才家族早教帐号；以及使用天才家族相关服务所订立的协议。本《协议》描述天才家族与用户之间关于“软件”许可使用及服务相关方面的权利义务。“用户”是指通过天才家族提供的获取软件授权和帐号注册的途径获得软件产品及号码授权许可以及使用天才家族相关服务的个人或组织。\n
+天才家族有权随时更新本《协议》，更新后的协议条款一旦公布即代替原来的协议条款，不再另行通知。用户可重新下载安装本软件或网站查阅最新版协议条款。在天才家族修改《协议》条款后，如果用户不接受修改后的条款，请立即停止使用天才家族提供的软件和服务，用户继续使用天才家族提供的软件和服务将被视为已接受了修改后的协议。\n\n
+一、知识产权声明\n
+1.1 本软件的所有权及知识产权为北京天才家族教育科技有限公司（以下简称“公司”或“天才家族”）所有。本软件提供信息内容（包括不限于文字，图片，照片，商标，标识，图表，数据、咨询问诊的回复）等版权、商标权、知识产权和所有权，均受《中华人民共和国著作权法》、《中华人民共和国商标法》、《中华人民共和国专利法》等有关法律、法规、国际条约的保护，天才家族依法享有相应的版权、商标权、知识产权和所有权。\n
+1.2 未经本公司书面授权同意，用户不得以任何目的擅自使用、转让或创造与本软件相关衍生产品，公司将保留对上述未经许可行为诉诸法律的权利的。\n\n
+二、使用规则\n
+2.1 用户在本软件申请注册的账号的所有权归北京天才家族教育科技有限公司所有，用户完成注册后获得相应的使用权，且该使用权仅属于初始申请人。同时，初始申请注册人不得赠与、借用、租用、转让或售卖账号或者以其他方式许可非初始申请注册人使用账号。用户应遵守中华人民共和国法律、法规，自行承担一切可能因用户自身发布的活动、语言及事件，直接或间接引起的法律责任。\n
+2.2 用户应自行承担账号安全的责任，并提供真实关联信息，若因黑客行为，或用户数据账号被非法使用，本公司不承担任何责任。\n
+2.3 用户在使用本软件时应遵守国家有关法律、法规和政策，原则如下：\n
+2.3.1 遵守中国有关的法律和法规；\n
+2.3.2 遵守所有与网络服务有关的网络协议、规定和程序；\n
+2.3.3 不得为任何非法目的而使用网络服务系统；\n
+2.3.4 不得利用本软件网络服务系统传输任何虚假的、骚扰性的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料；\n
+2.3.5 严禁破坏社区公共秩序及侵害社区利益的其它行为。\n
+2.3.6 禁止未经允许发表含销售目的或其他商业目的内容，包括个人广告信息；\n
+2.3.7 如发现任何非法、违规使用的用户账号或账号出现安全漏洞的情况，应立即通告管理员。\n
+2.4 用户注册账号后若长期不登入，北京天才家族教育科技有限公司有权回收该账号，以免造成资源浪费，由此带来的任何损失均由用户自行承担。\n
+2.5 用户在本软件上发布的所有原创文字、语音、图片等著作权归用户所有，但公司享有转发、复制、使用、传播前述信息的权利。\n\n
+三、免责声明\n
+3.1 本软件内发布的信息内容，仅供参考之用。不承担用户或任何人士就使用或未能使用本软件产生的，任何直接、间接、附带、偶然、特殊、恁罚性或恁戒性的损害风险。(包括但不限于个人健康、幼儿健康带来的损失)。\n
+3.2 本软件中用户自行发布、转载的内容，内容仅代表作者本人的观点，与本公司立场无关，不表示本软件同意其观点及真实性、合理性、合法性，公司不承担任何法律连带责任。用户应依法对其发布的任何信息承担全部责任。\n
+3.3 任何单位或个人认为本软件中的部分内容侵害您合法权益的，应该及时向本公司提出书面权利通知，并提供身份证明、权属证明、具体链接、及详细侵权情况证明。本公司在收到上述文件材料后，将会依法尽快移除相关涉嫌侵权的内容。\n
+3.4 因不可抗力因素（病毒、木马、黑客攻击、系统不稳定、第三方服务瑕疵、政府行为）等原因可能导致的服务中断，数据丢失以及其他的损失和风险的，本公司承诺在第一时间内与相关单位配合，及时处理进行修复，但用户因此而遭受的一切损失，本公司不承担责任。\n
+3.5 本软件内容含用户自行产生内容，本软件有权对用户产生信息进行监管和防控，有效排除非法内容，和对产生恶意行为用户进行排除；由于用户不遵循本服务协议而产生的内容，照片等相关信息受到损失的，用户应该自行承担相关责任，和本公司、本软件无关。\n
+3.6 用户确认并知晓，本软件的运行过程中会利用到用户的终端设备的处理器和带宽等资源。本软件使用过程中可能产生数据流量的费用，用户需自行向运营商了解相关资费信息，并自行承担相关费用。\n\n
+四、隐私保护\n
+保护数据的安全和用户隐私是本公司软件的重中之重，北京天才家族教育科技有限公司将运用各种安全技术和程序建立完善的管理制度来保护用户的每一份数据。\n
+4.1 尊重用户个人隐私是北京天才家族教育科技有限公司的一项基本原则。对于用户个人注册资料，软件内保存的记录信息，分析数据，IP地址等北京天才家族教育科技有限公司未经用户许可不会向第三方公开、透露用户个人信息，除下列法律规定的情况：\n
+4.1.1 遵守有关法律规定要求，国家有关机关查询，相关政府主管部门要求。\n
+4.1.2 遵从本软件产品服务程序。\n
+4.1.3 保持维护本软件的合法权益。\n
+4.1.4 维护用户个人和社会大众的利益。\n
+4.1.5 事前获得用户授权。\n
+4.2 为了改善本软件的技术和服务，我们将可能会收集、使用用户的非个人隐私信息，以提供更好的用户体验和服务质量。\n
+4.3一般情况下，您可随时浏览、修改自己提交的信息，但出于安全性和身份识别（如号码申诉服务）的考虑，您可能无法修改注册时提供的初始注册信息及其他验证信息。\n
+4.4因您在注册或开通某项服务、功能时选择或同意，或因您要求天才家族或第三方提供特定服务时，天才家族需要将您的相关个人信息提供给与此相关联的第三方或其他用户。\n\n
+五、服务及协议条款的变更\n
+天才家族有权在必要时修改本协议条款，协议条款一旦发生变动，将会在相关页面上公布修改后的协议条款。如果不同意所改动的内容，用户应主动取消此项服务。如果用户继续使用服务，则视为接受协议条款的变动。\n
+天才家族和合作公司有权按需要修改或变更所提供的收费服务、收费标准、收费方式、服务费、及服务条款。天才家族在提供服务时，可能现在或日后对部分服务的用户开始收取一定的费用如用户拒绝支付该等费用，则不能在收费开始后继续使用相关的服务。天才家族和合作公司将尽最大努力通过电邮或其他有效方式通知用户有关的修改或变更。\n\n
+六、争议管辖及适用法律\n
+本协议条款之效力和解释均适用中华人民共和国之法律。如协议条款之任何一部分与中华人民共和国法律相抵触，则该部分条款应按法律规定重新解释，部分条款之无效或重新解释不影响其它条款之法律效力。用户和天才家族一致同意凡因本服务所产生的纠纷双方应协商解决，协商不成任何一方可提交北京天才家族教育科技有限公司所在地北京市通州区有管辖权的法院诉讼裁决。\n\n
+
+天才家族拥有对以上各项条款内容的解释权及修改权。\n</string>
+    <string name="yinsi">本应用尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，本应用会按照本隐私权政策的规定使用和披露您的个人信息。但本应用将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本应用不会将这些信息对外披露或向第三方提供。本应用会不时更新本隐私权政策。 您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本应用服务使用协议不可分割的一部分。\n\n
+1. 适用范围\n\n
+(a) 在您注册本应用帐号时，您根据本应用要求提供的个人注册信息；\n
+(b) 在您使用本应用网络服务，或访问本应用平台网页时，本应用自动接收并记录的您的浏览器和计算机上的信息，包括但不限于您的IP地址、浏览器的类型、使用的语言、访问日期和时间、软硬件特征信息及您需求的网页记录等数据；\n
+(c) 本应用通过合法途径从商业伙伴处取得的用户个人数据。\n
+您了解并同意，以下信息不适用本隐私权政策：\n
+(a) 您在使用本应用平台提供的搜索服务时输入的关键字信息；\n
+(b) 本应用收集到的您在本应用发布的有关信息数据，包括但不限于参与活动、成交信息及评价详情；\n
+(c) 违反法律规定或违反本应用规则行为及本应用已对您采取的措施。\n\n
+2. 信息使用\n\n
+(a)本应用不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和本应用（含本应用关联公司）单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。\n
+(b) 本应用亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何本应用平台用户如从事上述活动，一经发现，本应用有权立即终止与该用户的服务协议。\n
+(c) 为服务用户的目的，本应用可能通过使用您的个人信息，向您提供您感兴趣的信息，包括但不限于向您发出产品和服务信息，或者与本应用合作伙伴共享信息以便他们向您发送有关其产品和服务的信息（后者需要您的事先同意）。\n\n
+3. 信息披露\n\n
+在如下情况下，本应用将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：\n
+(a) 经您事先同意，向第三方披露；\n
+(b)为提供您所要求的产品和服务，而必须和第三方分享您的个人信息；\n
+(c) 根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；\n
+(d) 如您出现违反中国有关法律、法规或者本应用服务协议或相关规则的情况，需要向第三方披露；\n
+(e) 如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；\n
+(f) 在本应用平台上创建的某一交易中，如交易任何一方履行或部分履行了交易义务并提出信息披露请求的，本应用有权决定向该用户提供其交易对方的联络方式等必要信息，以促成交易的完成或纠纷的解决。\n
+(g) 其它本应用根据法律、法规或者网站政策认为合适的披露。\n\n
+4. 信息存储和交换\n\n
+本应用收集的有关您的信息和资料将保存在本应用及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或本应用收集信息和资料所在地的境外并在境外被访问、存储和展示。\n\n
+5. Cookie的使用\n\n
+(a) 在您未拒绝接受cookies的情况下，本应用会在您的计算机上设定或取用cookies ，以便您能登录或使用依赖于cookies的本应用平台服务或功能。本应用使用cookies可为您提供更加周到的个性化服务，包括推广服务。\n
+(b) 您有权选择接受或拒绝接受cookies。您可以通过修改浏览器设置的方式拒绝接受cookies。但如果您选择拒绝接受cookies，则您可能无法登录或使用依赖于cookies的本应用网络服务或功能。\n
+(c) 通过本应用所设cookies所取得的有关信息，将适用本政策。\n\n
+6. 信息安全\n\n
+(a) 本应用帐号均有安全保护功能，请妥善保管您的用户名及密码信息。本应用将通过对用户密码进行加密等安全措施确保您的信息不丢失，不被滥用和变造。尽管有前述安全措施，但同时也请您注意在信息网络上不存在“完善的安全措施”。\n
+(b) 在使用本应用网络服务进行网上交易时，您不可避免的要向交易对方或潜在的交易对\n\n
+7.本隐私政策的更改\n\n
+(a)如果决定更改隐私政策，我们会在本政策中、本公司网站中以及我们认为适当的位置发布这些更改，以便您了解我们如何收集、使用您的个人信息，哪些人可以访问这些信息，以及在什么情况下我们会透露这些信息。\n
+(b)本公司保留随时修改本政策的权利，因此请经常查看。如对本政策作出重大更改，本公司会通过网站通知的形式告知。\n
+</string>
+    <string name="ceshi1">宝宝生日为课程推送的重要依据，且\n不可更改，请确定宝宝生日是否为真\n实生日</string>
+    <string name="ke">带宝宝上完主题课后提交反馈\n系统会根据反馈智能推荐最适合宝宝的游戏 </string>
+    <string name="ceone">专属客\n服对接</string>
+    <string name="cetwo">课程永\n久有效</string>
+    <string name="cethere">一人购买\n全家共享</string>
+    <string name="cefore">父母学院\n畅通无忧</string>
+    <string name="cefive">能力提升\n主题课</string>
+    <string name="ceoo">共120周课程推送\n一次性买到宝宝三岁前所有课程，全程启蒙无忧</string>
+    <string name="tishi">为你保存当前测评进度\n下次进入时可继续测评</string>
+    <string name="location">为方便您到线下园所\n本服务需要您授权“位置权限功能”\n以便给您推荐距离您位置最近的\n线下早教园所和幼教园所\n\n请您到 手机设置- 应用 - 权限管理页面\n找到 天才家族 将 位置信息权限 设置为“打开”或“始终允许”状态</string>
+    <string name="callow">为方便您联系团队成员\n本功能需开启电话权限，开启后可以直接点击拨打团队成员电话\n\n请您到 手机设置- 应用 - 权限管理 页面\n找到 天才家族 将 电话权限\n打开为“打开”状态</string>
+    <string name="strce">1.太在意是否干净和卫生\n2.手眼身都会用到的游戏较少\n3.平时包办太多</string>
+    <string name="coupons">2019-07-31至2019-08-07\n满20元可用\n限收货手机号为17186180888</string>
+    <string name="bank_cards">1、此卡不作为在天才家族消费的支付账户，仅作用户提现收款账户。\n
+2、每月1-7日为财务结算时期，在此期间不可更改银行卡信息或申请提现。\n
+3、请确保银行卡信息准确无误，否则无法成功提现。
+                            </string>
+
+    <string name="ip_all_images">所有图片</string>
+    <string name="ip_preview_image_count">%1$d/%2$d</string>
+    <string name="ip_folder_image_count">共%1$d张</string>
+    <string name="ip_select_limit">最多选择%1$d张图片</string>
+    <string name="ip_origin">原图</string>
+    <string name="ip_complete">完成</string>
+    <string name="ip_select_complete">完成(%1$d/%2$d)</string>
+    <string name="ip_origin_size">原图(%1$s)</string>
+    <string name="ip_preview_count">预览(%1$d)</string>
+    <string name="ip_preview">预览</string>
+    <string name="ip_photo_crop">图片裁剪</string>
+
+    <string name="feifazifu">不包括@#等无效字符哦~</string>
+
+
+    //更换头像
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="camera">拍照</string>gallery
+    <string name="gallery">相册</string>
+    <string name="cancel">取消</string>
+    <string name="mis_permission_dialog_title">权限拒绝</string>
+    <string name="mis_permission_dialog_ok">好</string>
+    <string name="mis_permission_dialog_cancel">拒绝</string>
+    <string name="mis_permission_rationale_write_storage">需要您提供写/读存储权限</string>
+
+    //早安音乐
+    <string name="geci">现在这词语多指人或某个组织因指导思想的变化而改变行为和形象,变得与原来完全不同的性质。也指衰变，大量原子核因放射性而陆续发生转变，最后变为另一种元素。这词前身属中性，但现多用于近"褒义"方面，多指蜕变是美好的。一是指道家哲学，属中性词，是通过一段时期的茧封或是焰炼，升华的过程，蜕变是美好的，因为会有改变。有对新事物的期盼带来的兴奋，还有对原来的决裂，珍惜蜕变的过程，拥抱希望。</string>
+
+    //闹钟
+    <string name="jianyi">· 尽量保证每天都有固定时间和宝宝上课\n· 可以挑课程中宝宝喜欢的环节或者游戏不断重复\n· 每次上课不少于10分钟\n· 经常练习和重复，宝宝的进步会很明显，加油！</string>
+    //游戏
+    <string name="game">家长准备一张纸，剪成好多张2-3厘米长的小纸条，将一条一条的纸条粘成弓形在小桌上，好了，一条小隧道做好了，拿一个海洋球给宝宝，让宝宝朝海洋球吹气，把海洋球吹进小隧道，过完隧道就是闯关成功，这个游戏可以锻炼宝宝的肺活量哦。（可以根据宝宝年龄大小调整拱形隧道的长度）</string>
+
+    <string name="baby_age_6_8">这个阶段我们的小宝贝可以和地心引力做更进一步的平衡了，那就是宝贝可以坐了，而且会有倒着往后爬或者匍匐往前爬的行为，我们妈妈一定多陪伴少抱着，给我们宝贝充分锻炼自己的机会\n\n各种丰富的感官刺激一定是必不可少的，多鼓励我们的宝宝大胆尝试吧</string>
+    <string name="baby_age_8_10">本月龄我们的宝贝行动意识快速发展，所以很多有趣的体验可以满足宝贝的好奇心和探索欲望让宝贝获得更多的学习机会\n\n本月龄是宝贝来到世界上后大脑第一次进行有效的大脑双侧分化那就是———爬行，一旦爬行不足就会影响宝贝以后的学习能力，如，做作业拖拉或者上课有小动作注意力不集中等等各种问题的出现</string>
+    <string name="baby_age_10_14">宝宝进入学步期和手的敏感期的高峰期，宝宝大肌肉开始发展，会扶着东西蹲，站，走等等，一定不要用学步车幺\n\n宝贝喜欢扔东西，揪东西，捏小渣渣等等都是宝贝为了让自己的小手变得更加的灵活而积极的训练自己呢!</string>
+    <string name="baby_age_14_18">本月龄的宝贝进去了需要爆发期，我们会发现您好对宝贝夸张的发音，宝宝开始想要模仿发音，所以语言的输入不能缺少奥\n\n本年龄段的宝宝模仿能力非常强，妈妈做宝宝学很重要，这个榜样您做好了吗？</string>
+    <string name="baby_age_18_24">本月龄咱们宝贝人生的第一叛逆期来临了，开始了一些小叛逆，爸爸妈妈你们准备好迎接我的自我意识敏感期了吗？\n\n这个阶段宝贝的秩序敏感期开始出现，这个时候除了有效的游戏让宝贝大脑神经元快速链接还有就是给宝贝建立规则意识</string>
+    <string name="baby_age_24_30">本月龄的宝贝四大敏感期重叠如叛逆期，秩序敏感期，物权期，语言敏感期，所以本月龄的宝贝比较难带奥，妈妈做好准备能够和宝贝边玩边学做好宝贝最棒的的玩伴了吗？记住尊重我们的宝贝他就不叛逆了，但是还要掌握原则，所以本月龄宝妈要学习的看来不比宝贝少！\n\n这个学期我们会提供更多想象力和创造力游戏来拓展宝贝的发散性思维</string>
+    <string name="baby_age_30_36">我们的宝贝长大了，各项能力快速发展，而3岁之前是宝宝认知物质属性的黄金期，想让宝贝以后有非常强的举一反三的能力各种学习体验是必不可少的。\n\n虽然各项能力快速发展，但是逻辑思维能力还需继续努力加强呢</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="unError" tools:ignore="MissingTranslation">出错啦~请稍后重试！</string>
+    <string name="unData">暂时还没有数据呢</string>
+    <string name="unnewwork">没网络了，刷新一下试试吧</string>
+    <string name="releay">点击重试</string>
+    <string name="confirm">确定</string>
+    <string name="title">设置提醒时间</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+</resources>

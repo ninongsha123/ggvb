@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:alpha="0.1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_222"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40">
+
+            <TextView
+                android:id="@+id/quxiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:text="取消"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_16" />
+            <TextView
+                android:id="@+id/wan_cheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_16"
+                android:text="完成"
+                android:textColor="#00DEFF"
+                android:textSize="@dimen/sp_16" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="#F1F1F1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50">
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="#F1F1F1" />
+
+        <RelativeLayout
+            android:id="@+id/nvxing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40">
+
+            <TextView
+                android:id="@+id/nv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="女性"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_16" />
+            <ImageView
+                android:id="@+id/select_nv"
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:layout_toRightOf="@+id/nv"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/select_dui"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="#F1F1F1" />
+
+        <RelativeLayout
+            android:id="@+id/nanxing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40">
+
+            <TextView
+                android:id="@+id/nan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="男性"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_16" />
+            <ImageView
+                android:id="@+id/select_nan"
+                android:layout_width="@dimen/dp_22"
+                android:layout_height="@dimen/dp_22"
+                android:layout_toRightOf="@+id/nan"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/select_dui"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="#F1F1F1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50">
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

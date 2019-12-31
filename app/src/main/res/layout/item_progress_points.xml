@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_height="wrap_content">
+        <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+            android:id="@+id/name"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_15"
+            android:layout_marginLeft="@dimen/dp_19"
+            android:textColor="@color/colorTextTitleHome"
+            android:text="感知觉"/>
+        <ProgressBar
+            android:id="@+id/bottom_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/dp_0"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp_4"
+            android:layout_centerVertical="true"
+            android:max="100"
+            android:progressDrawable="@drawable/text_points_progress" />
+        <TextView
+            android:id="@+id/bi"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/sp_15"
+            android:textColor="@color/colorTextTitleHome"
+            android:paddingRight="@dimen/dp_10"
+            android:text="5/8"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tiancaijiazu.app.fragments.outermostlayer.college_fragment.Content_ListFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerView"
+        android:layout_width="match_parent"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/dp_44"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

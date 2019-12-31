@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_custom"
+        android:layout_marginLeft="@dimen/dp_17"
+        android:layout_marginRight="@dimen/dp_17"
+        android:layout_marginBottom="@dimen/dp_8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_52">
+        <LinearLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp_22">
+
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="生活经验不足"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_15" />
+
+            <TextView
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:text="注意力不集中"
+                android:textColor="@color/colorTextSubhead"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_20"
+            android:background="@drawable/select_huang_bt"
+            android:button="@null" />
+    </LinearLayout>
+</LinearLayout>

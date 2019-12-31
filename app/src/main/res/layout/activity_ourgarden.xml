@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<com.tiancaijiazu.app.utils.status.LoadingLayout
+    android:id="@+id/loadingLayout"
+    app:isFirstVisible="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_190"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0"
+                android:layout_weight="1"
+                android:background="@color/colorWhite" />
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <www.linwg.org.lib.LCardView
+                    android:id="@+id/lcard1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_11"
+                    android:layout_marginRight="@dimen/dp_11"
+                    android:layout_marginTop="@dimen/dp_62"
+                    app:shadowSize="@dimen/dp_5"
+                    app:shadowColor="#003BFF"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:shadowFluidShape="linear"
+                    app:cornerRadius="@dimen/dp_5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/rounded"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_177"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginRight="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_15"
+                            android:scaleType="fitXY"
+                            app:riv_corner_radius="@dimen/dp_2" />
+
+                        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:layout_marginRight="@dimen/dp_16"
+                            android:layout_marginTop="@dimen/dp_15"
+                            android:ellipsize="end"
+                            android:includeFontPadding="false"
+                            android:maxLines="1"
+                            android:text="天才家族早教园（青岛园）"
+                            android:textColor="@color/colorTextTitleHome"
+                            android:textSize="@dimen/sp_20" />
+
+                        <TextView
+                            android:id="@+id/scale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_11"
+                            android:includeFontPadding="false"
+                            android:text="综合早教中心"
+                            android:textColor="@color/colorTextSubhead"
+                            android:textSize="@dimen/sp_12" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_11">
+
+                            <RelativeLayout
+                                android:id="@+id/rl1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/dp_65">
+
+                                <ImageView
+                                    android:id="@+id/zuobiao"
+                                    android:layout_width="@dimen/dp_22"
+                                    android:layout_height="@dimen/dp_22"
+                                    android:layout_marginLeft="@dimen/dp_9"
+                                    android:src="@mipmap/coordinates" />
+
+                                <TextView
+                                    android:id="@+id/site"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toRightOf="@+id/zuobiao"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:text="海淀区中关村大街15-3号（近海淀中街） "
+                                    android:textColor="@color/colorTextTitle"
+                                    android:textSize="@dimen/sp_12" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/rl2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/rl1"
+                                android:layout_marginBottom="@dimen/dp_14">
+
+                                <TextView
+                                    android:id="@+id/juli"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginLeft="@dimen/dp_33"
+                                    android:text="距您1.5km"
+                                    android:textColor="@color/colorTextTitle"
+                                    android:textSize="@dimen/sp_12" />
+
+                                <ImageView
+                                    android:id="@+id/jian"
+                                    android:layout_width="@dimen/dp_20"
+                                    android:layout_height="@dimen/dp_20"
+                                    android:layout_marginLeft="@dimen/dp_3"
+                                    android:layout_toRightOf="@+id/juli"
+                                    android:src="@mipmap/enter" />
+                            </RelativeLayout>
+
+
+                            <ImageView
+                                android:id="@+id/dianhua"
+                                android:layout_width="@dimen/dp_32"
+                                android:layout_height="@dimen/dp_32"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/dp_15"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:src="@mipmap/dianhua" />
+
+                            <View
+                                android:layout_width="@dimen/dp_1"
+                                android:layout_height="@dimen/dp_25"
+                                android:layout_marginRight="@dimen/dp_16"
+                                android:layout_marginTop="@dimen/dp_8"
+                                android:layout_toLeftOf="@id/dianhua"
+                                android:background="#F1F1F1" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                </www.linwg.org.lib.LCardView>
+
+                <www.linwg.org.lib.LCardView
+                    android:id="@+id/card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_11"
+                    android:layout_marginRight="@dimen/dp_11"
+                    app:shadowSize="@dimen/dp_5"
+                    app:shadowColor="#003BFF"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:shadowFluidShape="linear"
+                    app:cornerRadius="@dimen/dp_5">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                            android:id="@+id/shizi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_15"
+                            android:includeFontPadding="false"
+                            android:text="师资介绍"
+                            android:textColor="@color/colorTextTitleHome"
+                            android:textSize="@dimen/sp_17" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recler1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_12"
+                            android:nestedScrollingEnabled="false"
+                            android:overScrollMode="never" />
+
+                    </LinearLayout>
+
+                </www.linwg.org.lib.LCardView>
+
+                <www.linwg.org.lib.LCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_11"
+                    android:layout_marginRight="@dimen/dp_11"
+                    app:shadowSize="@dimen/dp_5"
+                    app:shadowColor="#003BFF"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:shadowFluidShape="linear"
+                    app:cornerRadius="@dimen/dp_5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                            android:id="@+id/tuijian"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_15"
+                            android:includeFontPadding="false"
+                            android:text="推荐课程"
+                            android:textColor="@color/colorTextTitleHome"
+                            android:textSize="@dimen/sp_17" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recler2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_14"
+                            android:nestedScrollingEnabled="false"
+                            android:overScrollMode="never" />
+
+
+                    </LinearLayout>
+                </www.linwg.org.lib.LCardView>
+
+                <www.linwg.org.lib.LCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_11"
+                    android:layout_marginRight="@dimen/dp_11"
+                    app:shadowSize="@dimen/dp_5"
+                    app:shadowColor="#003BFF"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:shadowFluidShape="linear"
+                    app:cornerRadius="@dimen/dp_5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                            android:id="@+id/yuansuo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:layout_marginTop="@dimen/dp_15"
+                            android:includeFontPadding="false"
+                            android:text="园所信息"
+                            android:textColor="@color/colorTextTitleHome"
+                            android:textSize="@dimen/sp_17" />
+
+                        <TextView
+                            android:id="@+id/businessHours"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:layout_marginTop="@dimen/dp_14"
+                            android:includeFontPadding="false"
+                            android:text="营业时间：周一至周日 10：00-22：00"
+                            android:textColor="@color/colorTextTitle"
+                            android:textSize="@dimen/sp_13" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recylerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dp_16"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginRight="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:nestedScrollingEnabled="false"
+                            android:overScrollMode="never" />
+
+                    </LinearLayout>
+                </www.linwg.org.lib.LCardView>
+
+                <www.linwg.org.lib.LCardView
+                    android:id="@+id/lcard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_5"
+                    android:layout_marginLeft="@dimen/dp_11"
+                    android:layout_marginRight="@dimen/dp_11"
+                    app:shadowSize="@dimen/dp_5"
+                    app:shadowColor="#003BFF"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:shadowFluidShape="linear"
+                    app:cornerRadius="@dimen/dp_5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_16"
+                            android:layout_marginRight="@dimen/dp_15"
+                            android:layout_marginTop="@dimen/dp_15">
+
+                            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                                android:id="@+id/pinpai"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:includeFontPadding="false"
+                                android:text="品牌介绍"
+                                android:textColor="@color/colorTextTitleHome"
+                                android:textSize="@dimen/sp_17" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/dp_5"
+                                android:layout_toLeftOf="@+id/go"
+                                android:text="更多介绍"
+                                android:textColor="@color/colorTextSubhead"
+                                android:textSize="@dimen/sp_12" />
+
+                            <ImageView
+                                android:id="@+id/go"
+                                android:layout_width="@dimen/dp_15"
+                                android:layout_height="@dimen/dp_15"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/dp_11"
+                                android:src="@mipmap/enter_min" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/summary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dp_21"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            android:layout_marginRight="@dimen/dp_24"
+                            android:layout_marginTop="@dimen/dp_14"
+                            android:lineSpacingExtra="@dimen/dp_8"
+                            android:maxLines="3"
+                            android:ellipsize="end"
+                            android:text="2010年5月1日Geniusfamily天才家族在国内成立了第一家儿童早教机构，并首次提出了“每个孩子  都有天赋  都是天才”的教育理念！这一理念得到了广大爸..."
+                            android:textColor="@color/colorTextTitle"
+                            android:textSize="@dimen/sp_13" />
+
+
+                    </LinearLayout>
+                </www.linwg.org.lib.LCardView>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_64">
+
+            <ImageView
+                android:id="@+id/iv_finis"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:src="@mipmap/back_white" />
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewTitle
+                android:id="@+id/title_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:alpha="0"
+                android:layout_marginBottom="@dimen/dp_11"
+                android:textColor="@color/colorTextTitleHome"
+                android:textSize="@dimen/sp_17" />
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:visibility="gone"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/dp_2"
+                android:layout_marginRight="@dimen/dp_6"
+                android:layout_toLeftOf="@+id/share"
+                android:background="@drawable/select_collect_our"
+                android:button="@null" />
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="@dimen/dp_40"
+                android:visibility="gone"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_5"
+                android:src="@mipmap/share_white" />
+        </RelativeLayout>
+    </FrameLayout>
+</com.tiancaijiazu.app.utils.status.LoadingLayout>
+
+</LinearLayout>
+
+
+

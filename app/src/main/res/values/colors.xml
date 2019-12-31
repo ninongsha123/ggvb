@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTr">#00000000</color>
+    <color name="blue">#FF469BFD</color>
+    //导航栏
+    <color name="colorWhite">#ffffff</color>
+    <color name="greenss">#fff1f1f1</color>
+    <color name="colorTextTitle">#666666</color>
+    <color name="colorbackgroud">#FFFFFF</color>
+    <color name="colorsix">#666666</color>
+    <color name="color_releay">#01C2FF</color>
+    <color name="colorTextTitleHome">#333333</color>
+    <color name="colorTextSubhead">#999999</color>
+    <color name="colorTextGrey">#BEBEBE</color>
+    <color name="colorLightRed">#00deff</color>
+    <color name="colorZhu">#00DEFF</color>
+    <color name="colorInfant">#FF5F8C</color>
+    <color name="colorToy">#FE961C</color>
+    <color name="colorVview">#F3F3F3</color>
+    <color name="colorBack">#E7E9EB</color>
+    <color name="news_read">#898989</color>
+    <color name="ip_color_primary_dark">#303135</color>
+    <color name="ip_color_primary">#393A3F</color>
+    <color name="ic_back_press">#323336</color>
+    <color name="ip_color_accent">#1AAD19</color>
+    <color name="ip_color_press">#ffe0e0e0</color>
+    <color name="ip_camera_pre">#353535</color>
+    <color name="ip_text_primary_inverted">#ffffff</color>
+    <color name="ip_text_secondary_inverted">#66ffffff</color>
+    //Main
+    <color name="colorTu">#BF33D3EF</color>
+
+    //按色
+    <color name="colorView">#EBEBEB</color>
+    <color name="colorAge">#FFBA16</color>
+    <color name="colorParenting">#FFCC41</color>
+    <color name="colorSymbol">#F54922</color>
+    <color name="colorHearText">#6297FF</color>
+    <color name="colorMusic">#FFB108</color>
+    <color name="colorIssue">#76A1F3</color>
+    <color name="colorBaobao">#4FE7F9</color>
+    <color name="colorParenting_guide_two">#FFA3D5</color>
+    <color name="colorParenting_guide_three">#FFCA53</color>
+    <color name="colorParenting_guide_four">#4EE7BA</color>
+    <color name="colorParenting_guide_five">#FF9F55</color>
+    <color name="colorParenting_guide_six">#FF9797</color>
+
+    //进度条
+    <color name="progressbar">#FFD33B</color>
+
+    <color name="shopping">#FF0663</color>
+    <color name="biaoqian">#4080FC</color>
+    <color name="baoyou">#FF4E7C</color>
+    <color name="split_line_bootom_color">#ffa8adb3</color>
+    //音乐条目
+    <color name="music_item_click">#FFB108</color>
+
+    //早教
+    <color name="colorearly">#F9FBFF</color>
+    <color name="littlegenius">#43DEFF</color>
+    <color name="littlegenius_pink">#FF9ABB</color>
+    //Vip
+    <color name="vipcolor">#FF6508</color>
+
+    <color name="color_earlveducation">#F3F5F9</color>
+
+    <color name="class_buy">#00DEFF</color>
+
+    <color name="music_exp">#666666</color>
+    <color name="cancle_load">#F03636</color>
+    <color name="clock">#FF4080FC</color>
+
+    <color name="new_knowlege">#FF333333</color>
+    <color name="new_kno_time">#FF999999</color>
+    <color name="edit">#FFF5F5F5</color>
+    <color name="myfragmentback">#FFF3F5F9</color>
+    <color name="viphuiyuan">#FF00DEFF</color>
+    <color name="shengji">#FF3ADAF4</color>
+    <color name="yuanzhangse">#FFD5AC56</color>
+    <color name="wanshan">#FFBBBBBB</color>
+    <color name="n_color">#FFFFB70B</color>
+
+    <color name="six">#FF00D7F6</color>
+    <color name="eight">#FFFFC35A</color>
+    <color name="ten">#FF00EDE5</color>
+    <color name="fourteen">#FFFF8864</color>
+    <color name="eighteen">#FF00D7F6</color>
+    <color name="twentyFour">#FFFFC35A</color>
+    <color name="thirty">#FF00EDE5</color>
+    <color name="colorlookImage">#333333</color>
+
+
+</resources>

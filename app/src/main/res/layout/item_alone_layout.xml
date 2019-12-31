@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <www.linwg.org.lib.LCardView
+        android:id="@+id/lcard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_marginRight="@dimen/dp_6"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cornerRadius="@dimen/dp_5"
+        app:shadowColor="#457cb4"
+        app:shadowFluidShape="linear"
+        app:shadowSize="@dimen/dp_5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_15"
+                android:includeFontPadding="false"
+                android:text="订单编号：1000205146640288"
+                android:textSize="@dimen/sp_12" />
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/rounded"
+                android:layout_below="@+id/tv_id"
+                android:layout_marginTop="@dimen/dp_14"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_width="@dimen/dp_90"
+                android:layout_height="@dimen/dp_90"
+                app:riv_corner_radius="@dimen/dp_2"/>
+            <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                android:id="@+id/title"
+                android:layout_toRightOf="@+id/rounded"
+                android:layout_alignTop="@+id/rounded"
+                android:layout_marginLeft="@dimen/dp_11"
+                android:layout_marginRight="@dimen/dp_23"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_13"
+                android:textColor="@color/colorTextTitleHome"
+                android:text="将PS和手机连接到相同的wifi环境下, 打开APP即能搜索到自己的PS设备"/>
+
+            <TextView
+                android:id="@+id/chicun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_12"
+                android:layout_toRightOf="@+id/rounded"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_11"
+                android:textColor="@color/colorTextSubhead"
+                android:text="尺寸：L；颜色：蓝色"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/rounded"
+                android:layout_alignBottom="@+id/rounded"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/sum"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp_12"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:text="共1件商品，合计："/>
+                <com.tiancaijiazu.app.utils.MediumBoldTextViewStandard
+                    android:id="@+id/money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/sum"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="#FF0663"
+                    android:text="¥129.00"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/goto_evaluate"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_25"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:background="@drawable/goto_btn_evaluate"
+                android:gravity="center"
+                android:text="去评价"
+                android:textColor="#FF0663"
+                android:textSize="@dimen/dp_12" />
+
+
+        </RelativeLayout>
+    </www.linwg.org.lib.LCardView>
+</LinearLayout>

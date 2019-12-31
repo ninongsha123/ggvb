@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.tiancaijiazu.app.activitys.summary.SummaryActivity">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="@color/colorWhite">
+
+        <ImageView
+            android:id="@+id/iv_finis"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:src="@mipmap/rec_back" />
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_11"
+            android:text="本周总结"
+            android:textColor="@color/colorTextTitleHome"
+            android:textSize="@dimen/sp_17" />
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/share"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_marginRight="@dimen/dp_5"
+            android:src="@mipmap/share" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="@color/colorView" />
+
+    <ScrollView
+        android:id="@+id/scrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_7">
+
+                <ImageView
+                    android:id="@+id/icon_game"
+                    android:layout_width="@dimen/dp_31"
+                    android:layout_height="@dimen/dp_31"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:src="@mipmap/gameicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_toRightOf="@id/icon_game"
+                    android:text="选一个宝宝本周最爱的游戏吧！"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_15" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/rlc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl1"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_17"
+                android:background="@mipmap/bac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_weight="1"
+                    android:text="DAY1  初步认知：体验风的力量"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_28"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:src="@mipmap/hongxin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rlc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rlc1"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_12"
+                android:background="@mipmap/bac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_weight="1"
+                    android:text="DAY2  深入探究：风能作画"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_28"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:src="@mipmap/baixin" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rlc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rlc2"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_12"
+                android:background="@mipmap/bac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_weight="1"
+                    android:text="DAY3  深入探究：谁能被风吹起来？"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_28"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:src="@mipmap/baixin" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rlc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rlc3"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_12"
+                android:background="@mipmap/bac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_weight="1"
+                    android:text="DAY4  融合锻炼：自制风向袋"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_28"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:src="@mipmap/baixin" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rlc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rlc4"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_12"
+                android:background="@mipmap/bac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_weight="1"
+                    android:text="DAY5  综合巩固：天气骰子游戏"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_28"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:src="@mipmap/baixin" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rlc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rlc5"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_12"
+                android:background="@mipmap/bac"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_21"
+                    android:layout_weight="1"
+                    android:text="DAY6  风是什么下周预告"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_14" />
+
+                <ImageView
+                    android:layout_width="@dimen/dp_28"
+                    android:layout_height="@dimen/dp_28"
+                    android:layout_marginRight="@dimen/dp_2"
+                    android:src="@mipmap/baixin" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_1"
+                android:layout_below="@id/rlc6"
+                android:layout_marginTop="@dimen/dp_22"
+                android:background="@color/colorView" />
+
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line1"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <ImageView
+                    android:id="@+id/buy_icon"
+                    android:layout_width="@dimen/dp_31"
+                    android:layout_height="@dimen/dp_31"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:src="@mipmap/buy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_toRightOf="@id/buy_icon"
+                    android:text="宝宝最大的收获是什么呢？"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_15"
+
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_130"
+                android:layout_below="@id/rl2"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_14"
+                android:background="@drawable/edicorner"
+                android:gravity="start"
+                android:padding="@dimen/dp_5"
+                android:textColor="@color/colorTextTitleHome"
+                android:textCursorDrawable="@null" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_1"
+                android:layout_below="@id/edit1"
+                android:layout_marginTop="@dimen/dp_25"
+                android:background="@color/colorView" />
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line2"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <ImageView
+                    android:id="@+id/sheng_icon"
+                    android:layout_width="@dimen/dp_31"
+                    android:layout_height="@dimen/dp_31"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:src="@mipmap/sheng" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_toRightOf="@id/sheng_icon"
+                    android:text="宝宝最需要加油的地方是什么呢？"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_15"
+
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_130"
+                android:layout_below="@id/rl3"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_14"
+                android:background="@drawable/edicorner"
+                android:gravity="start"
+                android:padding="@dimen/dp_10"
+                android:textColor="@color/colorTextTitleHome"
+                android:textCursorDrawable="@null" />
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_1"
+                android:layout_below="@id/edit2"
+                android:layout_marginTop="@dimen/dp_25"
+                android:background="@color/colorView" />
+
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line3"
+                android:layout_marginTop="@dimen/dp_10">
+
+                <ImageView
+                    android:id="@+id/xinde_icon"
+                    android:layout_width="@dimen/dp_31"
+                    android:layout_height="@dimen/dp_31"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:src="@mipmap/xinde" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:layout_toRightOf="@id/xinde_icon"
+                    android:text="一周下来，有什么上课心得？"
+                    android:textColor="@color/colorTextTitleHome"
+                    android:textSize="@dimen/sp_15"
+
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/edit3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_130"
+                android:layout_below="@id/rl4"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_14"
+                android:background="@drawable/edicorner"
+                android:gravity="start"
+                android:padding="@dimen/dp_10"
+                android:textColor="@color/colorTextTitleHome"
+                android:textCursorDrawable="@null" />
+
+            <ImageView
+                android:id="@+id/comit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="30dp"
+                android:src="@mipmap/comit" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_tihuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <www.linwg.org.lib.LCardView
+            android:id="@+id/lcard1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_95"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_15"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cornerRadius="@dimen/dp_5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_7">
+
+                    <ImageView
+                        android:id="@+id/games"
+                        android:layout_width="@dimen/dp_31"
+                        android:layout_height="@dimen/dp_31"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_15"
+                        android:src="@mipmap/gameicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:layout_toRightOf="@id/games"
+                        android:text="本周宝宝最爱的游戏"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r1"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:text="初步认知：体验风的力量"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/sp_14" />
+            </RelativeLayout>
+
+        </www.linwg.org.lib.LCardView>
+
+        <www.linwg.org.lib.LCardView
+            android:id="@+id/lcard2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_95"
+            android:layout_below="@id/lcard1"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_15"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cornerRadius="@dimen/dp_5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/r2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_7">
+
+                    <ImageView
+                        android:id="@+id/buy"
+                        android:layout_width="@dimen/dp_31"
+                        android:layout_height="@dimen/dp_31"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_15"
+                        android:src="@mipmap/buy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:layout_toRightOf="@id/buy"
+                        android:text="本周宝宝最大的收获"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r2"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:text="吃货"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/sp_14" />
+            </RelativeLayout>
+
+        </www.linwg.org.lib.LCardView>
+
+        <www.linwg.org.lib.LCardView
+            android:id="@+id/lcard3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_95"
+            android:layout_below="@id/lcard2"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_15"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cornerRadius="@dimen/dp_5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_7">
+
+                    <ImageView
+                        android:id="@+id/game"
+                        android:layout_width="@dimen/dp_31"
+                        android:layout_height="@dimen/dp_31"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_15"
+                        android:src="@mipmap/gameicon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:layout_toRightOf="@id/game"
+                        android:text="本周宝宝最需要加油的地方"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r3"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:text="初步认知" />
+            </RelativeLayout>
+
+        </www.linwg.org.lib.LCardView>
+
+        <www.linwg.org.lib.LCardView
+            android:id="@+id/lcard4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_95"
+            android:layout_below="@id/lcard3"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_15"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cornerRadius="@dimen/dp_5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_7">
+
+                    <ImageView
+                        android:id="@+id/xinde"
+                        android:layout_width="@dimen/dp_31"
+                        android:layout_height="@dimen/dp_31"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_15"
+                        android:src="@mipmap/xinde" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:layout_toRightOf="@id/xinde"
+                        android:text="本周上课心得"
+                        android:textColor="@color/colorTextTitleHome"
+                        android:textSize="@dimen/sp_15" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r4"
+                    android:layout_marginLeft="@dimen/dp_15"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:text="体验风的力量"
+                    android:textColor="@color/colorTextTitle"
+                    android:textSize="@dimen/sp_14" />
+            </RelativeLayout>
+
+        </www.linwg.org.lib.LCardView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
